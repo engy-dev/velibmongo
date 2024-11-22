@@ -82,7 +82,7 @@ def find_nearest_station(user_location):
 
 def plan_route(start, end):
     # Initialize OpenRouteService client
-    client = openrouteservice.Client(key='5b3ce3597851110001cf62482f039e819ea3427093ceafcf422ce592')
+    client = openrouteservice.Client(key='YOUR_OPENROUTESERVICE_API_KEY')
 
     # Prepare coordinates in (longitude, latitude) format
     coords = [[start[1], start[0]], [end[1], end[0]]]
