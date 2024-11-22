@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velib Tracker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Velib Tracker</h1>
+<button onclick="getLocation()">Find Nearby Stations</button>
+<div id="result"></div>
+
+<script>
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else {
+            document.getElementById("result").innerHTML = "Geolocation is not supported by this browser.";
+
+            // Call nearby_stations with default coordinates (Paris) when geolocation is not available
+            $.ajax({
+                url: '/nearby_stations',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    latitude: 48.8566,
+                    longitude: 2.3522 // Default coordinates for Paris
+                }),
+                success: function(response) {
+                    document.getElementById("result").innerHTML = "Map with all Vélib stations displayed.";
+                },
+                error: function(error) {
+                    document.getElementById("result").innerHTML = "Error: " + error.responseText;
+                }
+            });
+
+            return; // Exit function here to prevent further execution.
+        }
+    }
+
+    function showPosition(position) {
+       $.ajax({
+           url: '/nearby_stations',
+           type: 'POST',
+           contentType: 'application/json',
+           data: JSON.stringify({
+               latitude: position.coords.latitude,
+               longitude: position.coords.longitude
+           }),
+           success: function(response) {
+               document.getElementById("result").innerHTML = "Map with all Vélib stations displayed.";
+           },
+           error: function(error) {
+               document.getElementById("result").innerHTML = "Error: " + error.responseText;
+           }
+       });
+    }
+
+    function showError(error) {
+       switch(error.code) {
+           case error.PERMISSION_DENIED:
+               document.getElementById("result").innerHTML = "User denied the request for Geolocation. Generating map of all available Velib stations.";
+               break;
+           case error.POSITION_UNAVAILABLE:
+               document.getElementById("result").innerHTML = "Location information is unavailable.";
+               break;
+           case error.TIMEOUT:
+               document.getElementById("result").innerHTML = "The request to get user location timed out.";
+               break;
+           case error.UNKNOWN_ERROR:
+               document.getElementById("result").innerHTML = "An unknown error occurred.";
+               break;
+       }
+    }
+</script>
+</body>
+</html>
