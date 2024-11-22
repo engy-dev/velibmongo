@@ -1,0 +1,3697 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c1f684eb18354c3ef4b158d9aef94889 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c1f684eb18354c3ef4b158d9aef94889" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c1f684eb18354c3ef4b158d9aef94889 = L.map(
+                "map_c1f684eb18354c3ef4b158d9aef94889",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7614411d252a29e1ba30bbdbd8f9f950 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7614411d252a29e1ba30bbdbd8f9f950.addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+            var marker_b7f87c7e59018f20184503d9df108955 = L.marker(
+                [48.837525839067, 2.3360354080796],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_fcf00cd93061ddbecf7a3490f5747f64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_665ba77b353a3e491ce120a0f6abeca8 = $(`<div id="html_665ba77b353a3e491ce120a0f6abeca8" style="width: 100.0%; height: 100.0%;">             Station: Cassini - Denfert-Rochereau<br>             Available bikes: 6<br>             Mechanical: 2<br>             Electric: 4<br>             Capacity: 25             </div>`)[0];
+                popup_fcf00cd93061ddbecf7a3490f5747f64.setContent(html_665ba77b353a3e491ce120a0f6abeca8);
+            
+        
+
+        marker_b7f87c7e59018f20184503d9df108955.bindPopup(popup_fcf00cd93061ddbecf7a3490f5747f64)
+        ;
+
+        
+    
+    
+            marker_b7f87c7e59018f20184503d9df108955.bindTooltip(
+                `<div>
+                     Cassini - Denfert-Rochereau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47cb5c97c99d36c9349be9b6150d7cb6 = L.marker(
+                [48.93626891059109, 2.3588666820200914],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_73a968aed6a5c2345f9910fddae957b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27882963961b6678aed0a38be1fad9b9 = $(`<div id="html_27882963961b6678aed0a38be1fad9b9" style="width: 100.0%; height: 100.0%;">             Station: Basilique<br>             Available bikes: 18<br>             Mechanical: 4<br>             Electric: 14<br>             Capacity: 22             </div>`)[0];
+                popup_73a968aed6a5c2345f9910fddae957b1.setContent(html_27882963961b6678aed0a38be1fad9b9);
+            
+        
+
+        marker_47cb5c97c99d36c9349be9b6150d7cb6.bindPopup(popup_73a968aed6a5c2345f9910fddae957b1)
+        ;
+
+        
+    
+    
+            marker_47cb5c97c99d36c9349be9b6150d7cb6.bindTooltip(
+                `<div>
+                     Basilique
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdc6446d20600dbb4a42ed232e52b373 = L.marker(
+                [48.835092787824, 2.3534681351338],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_547a58c3b166c49c81cd38b2f7ac71f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94bbd5b1862cfe3eb92d182ffb97e06d = $(`<div id="html_94bbd5b1862cfe3eb92d182ffb97e06d" style="width: 100.0%; height: 100.0%;">             Station: Le Brun - Gobelins<br>             Available bikes: 8<br>             Mechanical: 6<br>             Electric: 2<br>             Capacity: 48             </div>`)[0];
+                popup_547a58c3b166c49c81cd38b2f7ac71f1.setContent(html_94bbd5b1862cfe3eb92d182ffb97e06d);
+            
+        
+
+        marker_fdc6446d20600dbb4a42ed232e52b373.bindPopup(popup_547a58c3b166c49c81cd38b2f7ac71f1)
+        ;
+
+        
+    
+    
+            marker_fdc6446d20600dbb4a42ed232e52b373.bindTooltip(
+                `<div>
+                     Le Brun - Gobelins
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b25282b86591886b019641e665aa822 = L.marker(
+                [48.848563233059, 2.3204218259346],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_b3efc9d2792015ab2076debcef9bfad7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a5a62f42c255265ff58067f9a12779b = $(`<div id="html_4a5a62f42c255265ff58067f9a12779b" style="width: 100.0%; height: 100.0%;">             Station: Vaneau - Sèvres<br>             Available bikes: 14<br>             Mechanical: 11<br>             Electric: 3<br>             Capacity: 35             </div>`)[0];
+                popup_b3efc9d2792015ab2076debcef9bfad7.setContent(html_4a5a62f42c255265ff58067f9a12779b);
+            
+        
+
+        marker_2b25282b86591886b019641e665aa822.bindPopup(popup_b3efc9d2792015ab2076debcef9bfad7)
+        ;
+
+        
+    
+    
+            marker_2b25282b86591886b019641e665aa822.bindTooltip(
+                `<div>
+                     Vaneau - Sèvres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed62f72bd7cd4b53cdad86474c4a3fc0 = L.marker(
+                [48.91039875761846, 2.3851355910301213],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_3311a14f6a1cb3bcec256c3d4ab8bd97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_778b3fc0eece89f176babf3eea799ecd = $(`<div id="html_778b3fc0eece89f176babf3eea799ecd" style="width: 100.0%; height: 100.0%;">             Station: André Karman - République<br>             Available bikes: 18<br>             Mechanical: 16<br>             Electric: 2<br>             Capacity: 31             </div>`)[0];
+                popup_3311a14f6a1cb3bcec256c3d4ab8bd97.setContent(html_778b3fc0eece89f176babf3eea799ecd);
+            
+        
+
+        marker_ed62f72bd7cd4b53cdad86474c4a3fc0.bindPopup(popup_3311a14f6a1cb3bcec256c3d4ab8bd97)
+        ;
+
+        
+    
+    
+            marker_ed62f72bd7cd4b53cdad86474c4a3fc0.bindTooltip(
+                `<div>
+                     André Karman - République
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baf267245efdd2eeff874ca7c920e0ff = L.marker(
+                [48.835583838706, 2.2325500845909],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_58430125b49b7fdb45038614f7a9d26a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14a991f364817994b38061c5c4c0f7b1 = $(`<div id="html_14a991f364817994b38061c5c4c0f7b1" style="width: 100.0%; height: 100.0%;">             Station: Silly - Galliéni<br>             Available bikes: 20<br>             Mechanical: 14<br>             Electric: 6<br>             Capacity: 25             </div>`)[0];
+                popup_58430125b49b7fdb45038614f7a9d26a.setContent(html_14a991f364817994b38061c5c4c0f7b1);
+            
+        
+
+        marker_baf267245efdd2eeff874ca7c920e0ff.bindPopup(popup_58430125b49b7fdb45038614f7a9d26a)
+        ;
+
+        
+    
+    
+            marker_baf267245efdd2eeff874ca7c920e0ff.bindTooltip(
+                `<div>
+                     Silly - Galliéni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98087f5a4dc962be32db9e4158cc985a = L.marker(
+                [48.862453313908, 2.1961666225454],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_18361364638fd2fefcd2515842fe8b8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cfb20dfe33f6d7b3a0d5c0ed8a99a5c = $(`<div id="html_8cfb20dfe33f6d7b3a0d5c0ed8a99a5c" style="width: 100.0%; height: 100.0%;">             Station: Place Nelson Mandela<br>             Available bikes: 8<br>             Mechanical: 3<br>             Electric: 5<br>             Capacity: 22             </div>`)[0];
+                popup_18361364638fd2fefcd2515842fe8b8e.setContent(html_8cfb20dfe33f6d7b3a0d5c0ed8a99a5c);
+            
+        
+
+        marker_98087f5a4dc962be32db9e4158cc985a.bindPopup(popup_18361364638fd2fefcd2515842fe8b8e)
+        ;
+
+        
+    
+    
+            marker_98087f5a4dc962be32db9e4158cc985a.bindTooltip(
+                `<div>
+                     Place Nelson Mandela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1db910b7fb59572cd326423399f10a5 = L.marker(
+                [48.851296433665276, 2.325061820447445],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_46b5549e5697b56431b7770e6c648b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5981a2f144a3f6a9764f50581e16abd = $(`<div id="html_a5981a2f144a3f6a9764f50581e16abd" style="width: 100.0%; height: 100.0%;">             Station: Square Boucicaut<br>             Available bikes: 57<br>             Mechanical: 33<br>             Electric: 24<br>             Capacity: 60             </div>`)[0];
+                popup_46b5549e5697b56431b7770e6c648b3a.setContent(html_a5981a2f144a3f6a9764f50581e16abd);
+            
+        
+
+        marker_b1db910b7fb59572cd326423399f10a5.bindPopup(popup_46b5549e5697b56431b7770e6c648b3a)
+        ;
+
+        
+    
+    
+            marker_b1db910b7fb59572cd326423399f10a5.bindTooltip(
+                `<div>
+                     Square Boucicaut
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_446d8252bc6baa54a1a009543e7f3321 = L.marker(
+                [48.84504716661511, 2.3494647851273465],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_7e29ac9f7272532325e7f5f71bc7518a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e37056ccd1f96389bada8f754c3c4a2 = $(`<div id="html_5e37056ccd1f96389bada8f754c3c4a2" style="width: 100.0%; height: 100.0%;">             Station: Thouin - Cardinal Lemoine<br>             Available bikes: 17<br>             Mechanical: 6<br>             Electric: 11<br>             Capacity: 17             </div>`)[0];
+                popup_7e29ac9f7272532325e7f5f71bc7518a.setContent(html_5e37056ccd1f96389bada8f754c3c4a2);
+            
+        
+
+        marker_446d8252bc6baa54a1a009543e7f3321.bindPopup(popup_7e29ac9f7272532325e7f5f71bc7518a)
+        ;
+
+        
+    
+    
+            marker_446d8252bc6baa54a1a009543e7f3321.bindTooltip(
+                `<div>
+                     Thouin - Cardinal Lemoine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61801ef3366751ac78eb3b86fb2085ee = L.marker(
+                [48.8570414504784, 2.37289470306807],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_41842bca77ad8244bba25e402510bba2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d88602c4949dc4a98f33f99b3fc7290 = $(`<div id="html_7d88602c4949dc4a98f33f99b3fc7290" style="width: 100.0%; height: 100.0%;">             Station: Froment - Bréguet<br>             Available bikes: 10<br>             Mechanical: 9<br>             Electric: 1<br>             Capacity: 43             </div>`)[0];
+                popup_41842bca77ad8244bba25e402510bba2.setContent(html_7d88602c4949dc4a98f33f99b3fc7290);
+            
+        
+
+        marker_61801ef3366751ac78eb3b86fb2085ee.bindPopup(popup_41842bca77ad8244bba25e402510bba2)
+        ;
+
+        
+    
+    
+            marker_61801ef3366751ac78eb3b86fb2085ee.bindTooltip(
+                `<div>
+                     Froment - Bréguet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ee72b1842d857340e8280d32381d427 = L.marker(
+                [48.83310149953933, 2.299380004405976],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_679124b42892d0846f1e438a02fd53ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61dace53123313612124438e70d5b91c = $(`<div id="html_61dace53123313612124438e70d5b91c" style="width: 100.0%; height: 100.0%;">             Station: Morillons - Dantzig<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 52             </div>`)[0];
+                popup_679124b42892d0846f1e438a02fd53ed.setContent(html_61dace53123313612124438e70d5b91c);
+            
+        
+
+        marker_5ee72b1842d857340e8280d32381d427.bindPopup(popup_679124b42892d0846f1e438a02fd53ed)
+        ;
+
+        
+    
+    
+            marker_5ee72b1842d857340e8280d32381d427.bindTooltip(
+                `<div>
+                     Morillons - Dantzig
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_171e6b89460fc8be28e9b35524ff8943 = L.marker(
+                [48.881973298352, 2.301132157445],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_fe3e28c39d3f85896a63a46a89f77699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4815fc3ea87dccf5bf77e83b486ee2f0 = $(`<div id="html_4815fc3ea87dccf5bf77e83b486ee2f0" style="width: 100.0%; height: 100.0%;">             Station: Jouffroy d'Abbans - Wagram<br>             Available bikes: 10<br>             Mechanical: 5<br>             Electric: 5<br>             Capacity: 40             </div>`)[0];
+                popup_fe3e28c39d3f85896a63a46a89f77699.setContent(html_4815fc3ea87dccf5bf77e83b486ee2f0);
+            
+        
+
+        marker_171e6b89460fc8be28e9b35524ff8943.bindPopup(popup_fe3e28c39d3f85896a63a46a89f77699)
+        ;
+
+        
+    
+    
+            marker_171e6b89460fc8be28e9b35524ff8943.bindTooltip(
+                `<div>
+                     Jouffroy d'Abbans - Wagram
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0f5af26816c8e8327a3dbfa34fd8d2d = L.marker(
+                [48.856451985396, 2.3348518833518],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_08659147c8096e26691c667016e6b47c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2048b0d0462086b800f2e090bafcdcd0 = $(`<div id="html_2048b0d0462086b800f2e090bafcdcd0" style="width: 100.0%; height: 100.0%;">             Station: Beaux-Arts - Bonaparte<br>             Available bikes: 17<br>             Mechanical: 6<br>             Electric: 11<br>             Capacity: 20             </div>`)[0];
+                popup_08659147c8096e26691c667016e6b47c.setContent(html_2048b0d0462086b800f2e090bafcdcd0);
+            
+        
+
+        marker_b0f5af26816c8e8327a3dbfa34fd8d2d.bindPopup(popup_08659147c8096e26691c667016e6b47c)
+        ;
+
+        
+    
+    
+            marker_b0f5af26816c8e8327a3dbfa34fd8d2d.bindTooltip(
+                `<div>
+                     Beaux-Arts - Bonaparte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9440baf9db8e495812e16bebdde3d63b = L.marker(
+                [48.840855311763, 2.3875549435616],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_02dda8e94344ce8f4baaf1fa5fd90e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf365deb2a698089349b0785402a1b6 = $(`<div id="html_fcf365deb2a698089349b0785402a1b6" style="width: 100.0%; height: 100.0%;">             Station: Mairie du 12ème<br>             Available bikes: 7<br>             Mechanical: 3<br>             Electric: 4<br>             Capacity: 30             </div>`)[0];
+                popup_02dda8e94344ce8f4baaf1fa5fd90e39.setContent(html_fcf365deb2a698089349b0785402a1b6);
+            
+        
+
+        marker_9440baf9db8e495812e16bebdde3d63b.bindPopup(popup_02dda8e94344ce8f4baaf1fa5fd90e39)
+        ;
+
+        
+    
+    
+            marker_9440baf9db8e495812e16bebdde3d63b.bindTooltip(
+                `<div>
+                     Mairie du 12ème
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20fa17ee7de82f20c3ac2719958cf136 = L.marker(
+                [48.82234096593411, 2.327861653302471],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_1e8f2bf12831b1b093c6487f8ee766ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0172693872b34ff49940249af90235b2 = $(`<div id="html_0172693872b34ff49940249af90235b2" style="width: 100.0%; height: 100.0%;">             Station: Le Brix et Mesmin - Jourdan<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 21             </div>`)[0];
+                popup_1e8f2bf12831b1b093c6487f8ee766ad.setContent(html_0172693872b34ff49940249af90235b2);
+            
+        
+
+        marker_20fa17ee7de82f20c3ac2719958cf136.bindPopup(popup_1e8f2bf12831b1b093c6487f8ee766ad)
+        ;
+
+        
+    
+    
+            marker_20fa17ee7de82f20c3ac2719958cf136.bindTooltip(
+                `<div>
+                     Le Brix et Mesmin - Jourdan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b926273708dbb89350dfef1bca39400d = L.marker(
+                [48.86785, 2.446748],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_a00f46401d98e934a927f0f0aad0816d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_910cf37182378f07f505ca5fc59afc6c = $(`<div id="html_910cf37182378f07f505ca5fc59afc6c" style="width: 100.0%; height: 100.0%;">             Station: Romainville - Vaillant-Couturier<br>             Available bikes: 3<br>             Mechanical: 2<br>             Electric: 1<br>             Capacity: 38             </div>`)[0];
+                popup_a00f46401d98e934a927f0f0aad0816d.setContent(html_910cf37182378f07f505ca5fc59afc6c);
+            
+        
+
+        marker_b926273708dbb89350dfef1bca39400d.bindPopup(popup_a00f46401d98e934a927f0f0aad0816d)
+        ;
+
+        
+    
+    
+            marker_b926273708dbb89350dfef1bca39400d.bindTooltip(
+                `<div>
+                     Romainville - Vaillant-Couturier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_321775a42f911545dabeaddf3a1b9eba = L.marker(
+                [48.89792240854517, 2.32851451022192],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_642455b197c948efe3ca49bf792bef92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31e7ff49551c802900e46e664151d239 = $(`<div id="html_31e7ff49551c802900e46e664151d239" style="width: 100.0%; height: 100.0%;">             Station: Porte de Saint-Ouen - Bessières<br>             Available bikes: 8<br>             Mechanical: 3<br>             Electric: 5<br>             Capacity: 42             </div>`)[0];
+                popup_642455b197c948efe3ca49bf792bef92.setContent(html_31e7ff49551c802900e46e664151d239);
+            
+        
+
+        marker_321775a42f911545dabeaddf3a1b9eba.bindPopup(popup_642455b197c948efe3ca49bf792bef92)
+        ;
+
+        
+    
+    
+            marker_321775a42f911545dabeaddf3a1b9eba.bindTooltip(
+                `<div>
+                     Porte de Saint-Ouen - Bessières
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17ec215d19958d2fa8a9af87934b2365 = L.marker(
+                [48.89594736851349, 2.381133802246315],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_7f7d9762fb67d496deb5a13a39ddab2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12a8970def4556ad0e57cede7f414989 = $(`<div id="html_12a8970def4556ad0e57cede7f414989" style="width: 100.0%; height: 100.0%;">             Station: Cambrai - Benjamin Constant<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 43             </div>`)[0];
+                popup_7f7d9762fb67d496deb5a13a39ddab2e.setContent(html_12a8970def4556ad0e57cede7f414989);
+            
+        
+
+        marker_17ec215d19958d2fa8a9af87934b2365.bindPopup(popup_7f7d9762fb67d496deb5a13a39ddab2e)
+        ;
+
+        
+    
+    
+            marker_17ec215d19958d2fa8a9af87934b2365.bindTooltip(
+                `<div>
+                     Cambrai - Benjamin Constant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_352f7fbc7a6803448eefd8705552c134 = L.marker(
+                [48.879406604954, 2.3034455627202988],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_9197d7a604011ead41d16e05e390ab13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3d224adb326458a45f899d4c133aecc = $(`<div id="html_f3d224adb326458a45f899d4c133aecc" style="width: 100.0%; height: 100.0%;">             Station: Chazelles - Courcelles<br>             Available bikes: 4<br>             Mechanical: 3<br>             Electric: 1<br>             Capacity: 35             </div>`)[0];
+                popup_9197d7a604011ead41d16e05e390ab13.setContent(html_f3d224adb326458a45f899d4c133aecc);
+            
+        
+
+        marker_352f7fbc7a6803448eefd8705552c134.bindPopup(popup_9197d7a604011ead41d16e05e390ab13)
+        ;
+
+        
+    
+    
+            marker_352f7fbc7a6803448eefd8705552c134.bindTooltip(
+                `<div>
+                     Chazelles - Courcelles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db4287e274ae94368ba8c549fdf7c865 = L.marker(
+                [48.871031137596, 2.379056852114],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_0bc5afb18783a74909674967e814a114 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cda8db5b72bd5ee74281cde09e65dedf = $(`<div id="html_cda8db5b72bd5ee74281cde09e65dedf" style="width: 100.0%; height: 100.0%;">             Station: Ramponeau - Belleville<br>             Available bikes: 0<br>             Mechanical: 0<br>             Electric: 0<br>             Capacity: 44             </div>`)[0];
+                popup_0bc5afb18783a74909674967e814a114.setContent(html_cda8db5b72bd5ee74281cde09e65dedf);
+            
+        
+
+        marker_db4287e274ae94368ba8c549fdf7c865.bindPopup(popup_0bc5afb18783a74909674967e814a114)
+        ;
+
+        
+    
+    
+            marker_db4287e274ae94368ba8c549fdf7c865.bindTooltip(
+                `<div>
+                     Ramponeau - Belleville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0aa30de5832451e223ae8825b726578b = L.marker(
+                [48.84884147189881, 2.426325418925233],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_9331512fe138e0f9e1609ec620353f36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a1d74654a6ada1d40a756a04a147edd = $(`<div id="html_5a1d74654a6ada1d40a756a04a147edd" style="width: 100.0%; height: 100.0%;">             Station: Lagny - Victor Basch<br>             Available bikes: 23<br>             Mechanical: 21<br>             Electric: 2<br>             Capacity: 26             </div>`)[0];
+                popup_9331512fe138e0f9e1609ec620353f36.setContent(html_5a1d74654a6ada1d40a756a04a147edd);
+            
+        
+
+        marker_0aa30de5832451e223ae8825b726578b.bindPopup(popup_9331512fe138e0f9e1609ec620353f36)
+        ;
+
+        
+    
+    
+            marker_0aa30de5832451e223ae8825b726578b.bindTooltip(
+                `<div>
+                     Lagny - Victor Basch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8f39ecb640a29b25ec1ea1eb7702c4c = L.marker(
+                [48.78980918988166, 2.3143940046429634],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_2cba91acadf13bc8b3b25827e4e8feb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_148b12bbcdc70dc2c3ddecbca95143fc = $(`<div id="html_148b12bbcdc70dc2c3ddecbca95143fc" style="width: 100.0%; height: 100.0%;">             Station: Rond-point du Dr Albert Schweitzer<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 22             </div>`)[0];
+                popup_2cba91acadf13bc8b3b25827e4e8feb4.setContent(html_148b12bbcdc70dc2c3ddecbca95143fc);
+            
+        
+
+        marker_f8f39ecb640a29b25ec1ea1eb7702c4c.bindPopup(popup_2cba91acadf13bc8b3b25827e4e8feb4)
+        ;
+
+        
+    
+    
+            marker_f8f39ecb640a29b25ec1ea1eb7702c4c.bindTooltip(
+                `<div>
+                     Rond-point du Dr Albert Schweitzer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb462584c11fd56bc2041ceb46a534d5 = L.marker(
+                [48.892648526839, 2.2136941552162],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_aa2ad3937c29e063c075dc8e068e9b1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e0f559036b521193a933c6442449322 = $(`<div id="html_4e0f559036b521193a933c6442449322" style="width: 100.0%; height: 100.0%;">             Station: Théâtre des Amandiers - Palais des sports<br>             Available bikes: 17<br>             Mechanical: 5<br>             Electric: 12<br>             Capacity: 23             </div>`)[0];
+                popup_aa2ad3937c29e063c075dc8e068e9b1c.setContent(html_4e0f559036b521193a933c6442449322);
+            
+        
+
+        marker_cb462584c11fd56bc2041ceb46a534d5.bindPopup(popup_aa2ad3937c29e063c075dc8e068e9b1c)
+        ;
+
+        
+    
+    
+            marker_cb462584c11fd56bc2041ceb46a534d5.bindTooltip(
+                `<div>
+                     Théâtre des Amandiers - Palais des sports
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7529cb81e215a7949d60a0bf7acaf24f = L.marker(
+                [48.880493403246, 2.398064173758],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_6e51f22021897d9cec34ada84dc96611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3714c4af50abbb192e9ea9e37f543b03 = $(`<div id="html_3714c4af50abbb192e9ea9e37f543b03" style="width: 100.0%; height: 100.0%;">             Station: Serrurier<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 18             </div>`)[0];
+                popup_6e51f22021897d9cec34ada84dc96611.setContent(html_3714c4af50abbb192e9ea9e37f543b03);
+            
+        
+
+        marker_7529cb81e215a7949d60a0bf7acaf24f.bindPopup(popup_6e51f22021897d9cec34ada84dc96611)
+        ;
+
+        
+    
+    
+            marker_7529cb81e215a7949d60a0bf7acaf24f.bindTooltip(
+                `<div>
+                     Serrurier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76b660d1073149da04028942bf388ab5 = L.marker(
+                [48.8529945, 2.4247387],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c43c59337b3a99c5c85c47387f8a218f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03933b8ed81227bc1a333c98e4f6ba0a = $(`<div id="html_03933b8ed81227bc1a333c98e4f6ba0a" style="width: 100.0%; height: 100.0%;">             Station: Raspail Barbès<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 28             </div>`)[0];
+                popup_c43c59337b3a99c5c85c47387f8a218f.setContent(html_03933b8ed81227bc1a333c98e4f6ba0a);
+            
+        
+
+        marker_76b660d1073149da04028942bf388ab5.bindPopup(popup_c43c59337b3a99c5c85c47387f8a218f)
+        ;
+
+        
+    
+    
+            marker_76b660d1073149da04028942bf388ab5.bindTooltip(
+                `<div>
+                     Raspail Barbès
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b382faf46ab73741b89d6a7ed178033 = L.marker(
+                [48.882428, 2.314002],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c0730cfd9a28295198e02d7967f0145b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_776ede02f2eebee74b1540d364ec424a = $(`<div id="html_776ede02f2eebee74b1540d364ec424a" style="width: 100.0%; height: 100.0%;">             Station: De Toqueville - Terrasse<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 30             </div>`)[0];
+                popup_c0730cfd9a28295198e02d7967f0145b.setContent(html_776ede02f2eebee74b1540d364ec424a);
+            
+        
+
+        marker_2b382faf46ab73741b89d6a7ed178033.bindPopup(popup_c0730cfd9a28295198e02d7967f0145b)
+        ;
+
+        
+    
+    
+            marker_2b382faf46ab73741b89d6a7ed178033.bindTooltip(
+                `<div>
+                     De Toqueville - Terrasse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_054c38655284235e26438bdc62d3945b = L.marker(
+                [48.879161, 2.343698],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_0cc120c2ee953fdd4ebcbbb28a748447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d04138268ea7a5ea10f8d1fcce0af4ca = $(`<div id="html_d04138268ea7a5ea10f8d1fcce0af4ca" style="width: 100.0%; height: 100.0%;">             Station: Tour d'Auvergne - Rodier<br>             Available bikes: 0<br>             Mechanical: 0<br>             Electric: 0<br>             Capacity: 17             </div>`)[0];
+                popup_0cc120c2ee953fdd4ebcbbb28a748447.setContent(html_d04138268ea7a5ea10f8d1fcce0af4ca);
+            
+        
+
+        marker_054c38655284235e26438bdc62d3945b.bindPopup(popup_0cc120c2ee953fdd4ebcbbb28a748447)
+        ;
+
+        
+    
+    
+            marker_054c38655284235e26438bdc62d3945b.bindTooltip(
+                `<div>
+                     Tour d'Auvergne - Rodier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1ef650cfb3f0f052f67063bd976c926 = L.marker(
+                [48.87393521240818, 2.3064258322119713],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_aaa11ab910febb80c4d3d6f5eced3bdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdf54805dc77538e71e61c39f191a52d = $(`<div id="html_bdf54805dc77538e71e61c39f191a52d" style="width: 100.0%; height: 100.0%;">             Station: Artois - Berri<br>             Available bikes: 19<br>             Mechanical: 12<br>             Electric: 7<br>             Capacity: 23             </div>`)[0];
+                popup_aaa11ab910febb80c4d3d6f5eced3bdb.setContent(html_bdf54805dc77538e71e61c39f191a52d);
+            
+        
+
+        marker_d1ef650cfb3f0f052f67063bd976c926.bindPopup(popup_aaa11ab910febb80c4d3d6f5eced3bdb)
+        ;
+
+        
+    
+    
+            marker_d1ef650cfb3f0f052f67063bd976c926.bindTooltip(
+                `<div>
+                     Artois - Berri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d00a896a53b8f7546f6fec2d2ebfea10 = L.marker(
+                [48.868834023334, 2.2986030816809],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_571463c6323c2103f54d4b229ec2d6af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39fd57b11916d52a89df6168b4e7eac4 = $(`<div id="html_39fd57b11916d52a89df6168b4e7eac4" style="width: 100.0%; height: 100.0%;">             Station: Marceau - Chaillot<br>             Available bikes: 17<br>             Mechanical: 7<br>             Electric: 10<br>             Capacity: 21             </div>`)[0];
+                popup_571463c6323c2103f54d4b229ec2d6af.setContent(html_39fd57b11916d52a89df6168b4e7eac4);
+            
+        
+
+        marker_d00a896a53b8f7546f6fec2d2ebfea10.bindPopup(popup_571463c6323c2103f54d4b229ec2d6af)
+        ;
+
+        
+    
+    
+            marker_d00a896a53b8f7546f6fec2d2ebfea10.bindTooltip(
+                `<div>
+                     Marceau - Chaillot
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbace7d0c301744c8c5a41a74631e9fb = L.marker(
+                [48.838683941628375, 2.3110422492027287],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_6f2f1050428e6d6cc2ad346972bd7b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ede6540d0076076bba0dadc6fe7ac8ff = $(`<div id="html_ede6540d0076076bba0dadc6fe7ac8ff" style="width: 100.0%; height: 100.0%;">             Station: Vigée-Lebrun - Anselme Payen<br>             Available bikes: 6<br>             Mechanical: 0<br>             Electric: 6<br>             Capacity: 24             </div>`)[0];
+                popup_6f2f1050428e6d6cc2ad346972bd7b5e.setContent(html_ede6540d0076076bba0dadc6fe7ac8ff);
+            
+        
+
+        marker_dbace7d0c301744c8c5a41a74631e9fb.bindPopup(popup_6f2f1050428e6d6cc2ad346972bd7b5e)
+        ;
+
+        
+    
+    
+            marker_dbace7d0c301744c8c5a41a74631e9fb.bindTooltip(
+                `<div>
+                     Vigée-Lebrun - Anselme Payen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73981966ad38cbd4cd9ebdd868f5919c = L.marker(
+                [48.82557229464416, 2.3576171323657036],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_abf6c79a973f5eef4e5f7889d1b6f2be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00f3124ef16e84f344e22c349a60f4f4 = $(`<div id="html_00f3124ef16e84f344e22c349a60f4f4" style="width: 100.0%; height: 100.0%;">             Station: Italie - Tolbiac<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 21             </div>`)[0];
+                popup_abf6c79a973f5eef4e5f7889d1b6f2be.setContent(html_00f3124ef16e84f344e22c349a60f4f4);
+            
+        
+
+        marker_73981966ad38cbd4cd9ebdd868f5919c.bindPopup(popup_abf6c79a973f5eef4e5f7889d1b6f2be)
+        ;
+
+        
+    
+    
+            marker_73981966ad38cbd4cd9ebdd868f5919c.bindTooltip(
+                `<div>
+                     Italie - Tolbiac
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56b7267f6a384331368fe26c290cfdfb = L.marker(
+                [48.88949630486821, 2.333393658804396],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_50e4e6b4ef56e969963627a2165126b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68f6930ae36712f9f57cb41496499300 = $(`<div id="html_68f6930ae36712f9f57cb41496499300" style="width: 100.0%; height: 100.0%;">             Station: Félix Ziem - Armand Gauthier<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 25             </div>`)[0];
+                popup_50e4e6b4ef56e969963627a2165126b2.setContent(html_68f6930ae36712f9f57cb41496499300);
+            
+        
+
+        marker_56b7267f6a384331368fe26c290cfdfb.bindPopup(popup_50e4e6b4ef56e969963627a2165126b2)
+        ;
+
+        
+    
+    
+            marker_56b7267f6a384331368fe26c290cfdfb.bindTooltip(
+                `<div>
+                     Félix Ziem - Armand Gauthier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70506df3c366a75ca428af34c4959757 = L.marker(
+                [48.78448485079149, 2.35908430069685],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_0d8cf92f477e1b5997dc9c142aaa6377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2b03697f2f6a2d2b07ddd2e35d0f3b7 = $(`<div id="html_e2b03697f2f6a2d2b07ddd2e35d0f3b7" style="width: 100.0%; height: 100.0%;">             Station: Youri Gagarine - Karl Marx<br>             Available bikes: 17<br>             Mechanical: 3<br>             Electric: 14<br>             Capacity: 22             </div>`)[0];
+                popup_0d8cf92f477e1b5997dc9c142aaa6377.setContent(html_e2b03697f2f6a2d2b07ddd2e35d0f3b7);
+            
+        
+
+        marker_70506df3c366a75ca428af34c4959757.bindPopup(popup_0d8cf92f477e1b5997dc9c142aaa6377)
+        ;
+
+        
+    
+    
+            marker_70506df3c366a75ca428af34c4959757.bindTooltip(
+                `<div>
+                     Youri Gagarine - Karl Marx
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_653dc6ba4feea3d959631ce09aa3aff9 = L.marker(
+                [48.87320440102894, 2.323658830743138],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c4caeb84a1f82954b6f14a04730d04c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5622bf0621c796cf258ceba432e10f63 = $(`<div id="html_5622bf0621c796cf258ceba432e10f63" style="width: 100.0%; height: 100.0%;">             Station: Square Louis XVI<br>             Available bikes: 20<br>             Mechanical: 11<br>             Electric: 9<br>             Capacity: 29             </div>`)[0];
+                popup_c4caeb84a1f82954b6f14a04730d04c3.setContent(html_5622bf0621c796cf258ceba432e10f63);
+            
+        
+
+        marker_653dc6ba4feea3d959631ce09aa3aff9.bindPopup(popup_c4caeb84a1f82954b6f14a04730d04c3)
+        ;
+
+        
+    
+    
+            marker_653dc6ba4feea3d959631ce09aa3aff9.bindTooltip(
+                `<div>
+                     Square Louis XVI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cd91ce16a86df411276313541117949 = L.marker(
+                [48.8761373390584, 2.3680844979417],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_213c3ade3751da13ed551a4653a76046 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58a02e047726b5de8ee265410abe0baa = $(`<div id="html_58a02e047726b5de8ee265410abe0baa" style="width: 100.0%; height: 100.0%;">             Station: Granges aux Belles<br>             Available bikes: 4<br>             Mechanical: 3<br>             Electric: 1<br>             Capacity: 27             </div>`)[0];
+                popup_213c3ade3751da13ed551a4653a76046.setContent(html_58a02e047726b5de8ee265410abe0baa);
+            
+        
+
+        marker_9cd91ce16a86df411276313541117949.bindPopup(popup_213c3ade3751da13ed551a4653a76046)
+        ;
+
+        
+    
+    
+            marker_9cd91ce16a86df411276313541117949.bindTooltip(
+                `<div>
+                     Granges aux Belles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82fdc1fdae15454811260a9fdd9d41f0 = L.marker(
+                [48.880726, 2.351464],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_5f3c75fa1dd754154ae6c874dac922d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cda1b35743a4aa5a2e2695c1a26e985 = $(`<div id="html_4cda1b35743a4aa5a2e2695c1a26e985" style="width: 100.0%; height: 100.0%;">             Station: Dunkerque - Rocroy<br>             Available bikes: 0<br>             Mechanical: 0<br>             Electric: 0<br>             Capacity: 24             </div>`)[0];
+                popup_5f3c75fa1dd754154ae6c874dac922d5.setContent(html_4cda1b35743a4aa5a2e2695c1a26e985);
+            
+        
+
+        marker_82fdc1fdae15454811260a9fdd9d41f0.bindPopup(popup_5f3c75fa1dd754154ae6c874dac922d5)
+        ;
+
+        
+    
+    
+            marker_82fdc1fdae15454811260a9fdd9d41f0.bindTooltip(
+                `<div>
+                     Dunkerque - Rocroy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fa7def15d6ff08adf9842ee654da0d8 = L.marker(
+                [48.875642647477, 2.3594588041306],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_77603441dc3eaf027e5b786220794e52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5c57836b00b8c3d9f27064d2dd25beb = $(`<div id="html_a5c57836b00b8c3d9f27064d2dd25beb" style="width: 100.0%; height: 100.0%;">             Station: Gare de l'Est - Faubourg-Saint-Martin<br>             Available bikes: 5<br>             Mechanical: 1<br>             Electric: 4<br>             Capacity: 32             </div>`)[0];
+                popup_77603441dc3eaf027e5b786220794e52.setContent(html_a5c57836b00b8c3d9f27064d2dd25beb);
+            
+        
+
+        marker_0fa7def15d6ff08adf9842ee654da0d8.bindPopup(popup_77603441dc3eaf027e5b786220794e52)
+        ;
+
+        
+    
+    
+            marker_0fa7def15d6ff08adf9842ee654da0d8.bindTooltip(
+                `<div>
+                     Gare de l'Est - Faubourg-Saint-Martin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52c911aa72e526d117d1eb32f8a4a97c = L.marker(
+                [48.83842553348809, 2.493693307042122],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_644f4b0ed47928a2351f89e2b4998fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9426167174ca9765125b6b16a170a58 = $(`<div id="html_a9426167174ca9765125b6b16a170a58" style="width: 100.0%; height: 100.0%;">             Station: Gare de Nogent-le-Perreux<br>             Available bikes: 7<br>             Mechanical: 2<br>             Electric: 5<br>             Capacity: 32             </div>`)[0];
+                popup_644f4b0ed47928a2351f89e2b4998fe6.setContent(html_a9426167174ca9765125b6b16a170a58);
+            
+        
+
+        marker_52c911aa72e526d117d1eb32f8a4a97c.bindPopup(popup_644f4b0ed47928a2351f89e2b4998fe6)
+        ;
+
+        
+    
+    
+            marker_52c911aa72e526d117d1eb32f8a4a97c.bindTooltip(
+                `<div>
+                     Gare de Nogent-le-Perreux
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_062e9768b6b15a54602093ef4cbb4702 = L.marker(
+                [48.8351212784276, 2.385534569621086],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_a3f3d7fcc24edeebe5d12d9bf656c2dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6781efd0dd50a273c1a809f28aa1c5de = $(`<div id="html_6781efd0dd50a273c1a809f28aa1c5de" style="width: 100.0%; height: 100.0%;">             Station: Gabriel Lamé<br>             Available bikes: 32<br>             Mechanical: 25<br>             Electric: 7<br>             Capacity: 36             </div>`)[0];
+                popup_a3f3d7fcc24edeebe5d12d9bf656c2dc.setContent(html_6781efd0dd50a273c1a809f28aa1c5de);
+            
+        
+
+        marker_062e9768b6b15a54602093ef4cbb4702.bindPopup(popup_a3f3d7fcc24edeebe5d12d9bf656c2dc)
+        ;
+
+        
+    
+    
+            marker_062e9768b6b15a54602093ef4cbb4702.bindTooltip(
+                `<div>
+                     Gabriel Lamé
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d568c8f435308ea8b5bf99029e457feb = L.marker(
+                [48.827228120536, 2.268122527474],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_9bd3e98f0133ccd44b9f635791daacbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdbdb6ace3e3267c2f4a45de288e5072 = $(`<div id="html_cdbdb6ace3e3267c2f4a45de288e5072" style="width: 100.0%; height: 100.0%;">             Station: Charlot - Stade Gabriel Voisin<br>             Available bikes: 26<br>             Mechanical: 24<br>             Electric: 2<br>             Capacity: 31             </div>`)[0];
+                popup_9bd3e98f0133ccd44b9f635791daacbd.setContent(html_cdbdb6ace3e3267c2f4a45de288e5072);
+            
+        
+
+        marker_d568c8f435308ea8b5bf99029e457feb.bindPopup(popup_9bd3e98f0133ccd44b9f635791daacbd)
+        ;
+
+        
+    
+    
+            marker_d568c8f435308ea8b5bf99029e457feb.bindTooltip(
+                `<div>
+                     Charlot - Stade Gabriel Voisin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a4bc8eaf71eaf4470ce897cbe2b9c48 = L.marker(
+                [48.84369030864, 2.3657163977623],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_d872088ed21cec0879727c0c1c491995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17f16ecaa11992e1e043f65c3fe255d9 = $(`<div id="html_17f16ecaa11992e1e043f65c3fe255d9" style="width: 100.0%; height: 100.0%;">             Station: Gare d'Austerlitz - Quai Saint-Bernard<br>             Available bikes: 26<br>             Mechanical: 15<br>             Electric: 11<br>             Capacity: 27             </div>`)[0];
+                popup_d872088ed21cec0879727c0c1c491995.setContent(html_17f16ecaa11992e1e043f65c3fe255d9);
+            
+        
+
+        marker_8a4bc8eaf71eaf4470ce897cbe2b9c48.bindPopup(popup_d872088ed21cec0879727c0c1c491995)
+        ;
+
+        
+    
+    
+            marker_8a4bc8eaf71eaf4470ce897cbe2b9c48.bindTooltip(
+                `<div>
+                     Gare d'Austerlitz - Quai Saint-Bernard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d23c5527a0b4c632be4215bc79f0394 = L.marker(
+                [48.87973954830735, 2.288012132048607],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_dc665d1c850860345e7a5128a256024a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f36003eb6c76d742b0e3dd70f739264f = $(`<div id="html_f36003eb6c76d742b0e3dd70f739264f" style="width: 100.0%; height: 100.0%;">             Station: Pereire - Ternes<br>             Available bikes: 2<br>             Mechanical: 1<br>             Electric: 1<br>             Capacity: 48             </div>`)[0];
+                popup_dc665d1c850860345e7a5128a256024a.setContent(html_f36003eb6c76d742b0e3dd70f739264f);
+            
+        
+
+        marker_9d23c5527a0b4c632be4215bc79f0394.bindPopup(popup_dc665d1c850860345e7a5128a256024a)
+        ;
+
+        
+    
+    
+            marker_9d23c5527a0b4c632be4215bc79f0394.bindTooltip(
+                `<div>
+                     Pereire - Ternes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc6162d5e2fd414e61db17d1858e825a = L.marker(
+                [48.88320784122797, 2.3308449949028507],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_059c4a57d9b0038b840378e7aecbc637 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63b192726c7db78f060d648dffd8d576 = $(`<div id="html_63b192726c7db78f060d648dffd8d576" style="width: 100.0%; height: 100.0%;">             Station: Douai - Bruxelles<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 27             </div>`)[0];
+                popup_059c4a57d9b0038b840378e7aecbc637.setContent(html_63b192726c7db78f060d648dffd8d576);
+            
+        
+
+        marker_fc6162d5e2fd414e61db17d1858e825a.bindPopup(popup_059c4a57d9b0038b840378e7aecbc637)
+        ;
+
+        
+    
+    
+            marker_fc6162d5e2fd414e61db17d1858e825a.bindTooltip(
+                `<div>
+                     Douai - Bruxelles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59c1c161e4d84695699be869e929c222 = L.marker(
+                [48.874777677621296, 2.326515804784655],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_489a534fb5d573b2c79ce78f7691f853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5c51628d32fca762804cc53638a4056 = $(`<div id="html_f5c51628d32fca762804cc53638a4056" style="width: 100.0%; height: 100.0%;">             Station: Gare Saint-Lazare - Isly<br>             Available bikes: 12<br>             Mechanical: 11<br>             Electric: 1<br>             Capacity: 27             </div>`)[0];
+                popup_489a534fb5d573b2c79ce78f7691f853.setContent(html_f5c51628d32fca762804cc53638a4056);
+            
+        
+
+        marker_59c1c161e4d84695699be869e929c222.bindPopup(popup_489a534fb5d573b2c79ce78f7691f853)
+        ;
+
+        
+    
+    
+            marker_59c1c161e4d84695699be869e929c222.bindTooltip(
+                `<div>
+                     Gare Saint-Lazare - Isly
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a4d9a9c7ab8dd02f7c7bae410b5f8e2 = L.marker(
+                [48.88115023337061, 2.480436824262142],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_7899397b81cf341f5da2683db1ba6e4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b341293ffe9824a5c727d37647e137e = $(`<div id="html_5b341293ffe9824a5c727d37647e137e" style="width: 100.0%; height: 100.0%;">             Station: Gare Rosny-Bois-Perrier<br>             Available bikes: 12<br>             Mechanical: 1<br>             Electric: 11<br>             Capacity: 36             </div>`)[0];
+                popup_7899397b81cf341f5da2683db1ba6e4d.setContent(html_5b341293ffe9824a5c727d37647e137e);
+            
+        
+
+        marker_7a4d9a9c7ab8dd02f7c7bae410b5f8e2.bindPopup(popup_7899397b81cf341f5da2683db1ba6e4d)
+        ;
+
+        
+    
+    
+            marker_7a4d9a9c7ab8dd02f7c7bae410b5f8e2.bindTooltip(
+                `<div>
+                     Gare Rosny-Bois-Perrier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_997e8d6c7f6229f3bbb6d24623321ad2 = L.marker(
+                [48.8978765, 2.3230632],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_79162a40d068a5ed4bc385bf547c36a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5726bbc5c3fdba3e7c88b4db940c90c8 = $(`<div id="html_5726bbc5c3fdba3e7c88b4db940c90c8" style="width: 100.0%; height: 100.0%;">             Station: Porte Pouchet-Bessières<br>             Available bikes: 6<br>             Mechanical: 0<br>             Electric: 6<br>             Capacity: 23             </div>`)[0];
+                popup_79162a40d068a5ed4bc385bf547c36a3.setContent(html_5726bbc5c3fdba3e7c88b4db940c90c8);
+            
+        
+
+        marker_997e8d6c7f6229f3bbb6d24623321ad2.bindPopup(popup_79162a40d068a5ed4bc385bf547c36a3)
+        ;
+
+        
+    
+    
+            marker_997e8d6c7f6229f3bbb6d24623321ad2.bindTooltip(
+                `<div>
+                     Porte Pouchet-Bessières
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3259967d93fd950377002153ad174470 = L.marker(
+                [48.844730256132, 2.3419239448664],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_bf50880926ea848a07452e9731b1664d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7738c397204bc26faa2ef28e3629b76 = $(`<div id="html_c7738c397204bc26faa2ef28e3629b76" style="width: 100.0%; height: 100.0%;">             Station: Gay Lussac - Saint-Jacques<br>             Available bikes: 11<br>             Mechanical: 2<br>             Electric: 9<br>             Capacity: 24             </div>`)[0];
+                popup_bf50880926ea848a07452e9731b1664d.setContent(html_c7738c397204bc26faa2ef28e3629b76);
+            
+        
+
+        marker_3259967d93fd950377002153ad174470.bindPopup(popup_bf50880926ea848a07452e9731b1664d)
+        ;
+
+        
+    
+    
+            marker_3259967d93fd950377002153ad174470.bindTooltip(
+                `<div>
+                     Gay Lussac - Saint-Jacques
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80a5855cd535dc0d6d81e0459c61278c = L.marker(
+                [48.874750203957, 2.301771435326],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_716c11613298b83a7fc3b8a40912ed8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7125924f535b22cb3f9a7423a0502f11 = $(`<div id="html_7125924f535b22cb3f9a7423a0502f11" style="width: 100.0%; height: 100.0%;">             Station: Place Georges Guillaumin<br>             Available bikes: 17<br>             Mechanical: 6<br>             Electric: 11<br>             Capacity: 29             </div>`)[0];
+                popup_716c11613298b83a7fc3b8a40912ed8a.setContent(html_7125924f535b22cb3f9a7423a0502f11);
+            
+        
+
+        marker_80a5855cd535dc0d6d81e0459c61278c.bindPopup(popup_716c11613298b83a7fc3b8a40912ed8a)
+        ;
+
+        
+    
+    
+            marker_80a5855cd535dc0d6d81e0459c61278c.bindTooltip(
+                `<div>
+                     Place Georges Guillaumin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84c6adafdd45c8571f95bc8e18c85617 = L.marker(
+                [48.883667, 2.395733],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_904a77c547d80381914e4129c72e942b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecb595f260c5e0a48448408eba1aeed9 = $(`<div id="html_ecb595f260c5e0a48448408eba1aeed9" style="width: 100.0%; height: 100.0%;">             Station: Ambroise Rendu - Porte Brunet<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 17             </div>`)[0];
+                popup_904a77c547d80381914e4129c72e942b.setContent(html_ecb595f260c5e0a48448408eba1aeed9);
+            
+        
+
+        marker_84c6adafdd45c8571f95bc8e18c85617.bindPopup(popup_904a77c547d80381914e4129c72e942b)
+        ;
+
+        
+    
+    
+            marker_84c6adafdd45c8571f95bc8e18c85617.bindTooltip(
+                `<div>
+                     Ambroise Rendu - Porte Brunet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59ed614184542648c7a85837ab38b998 = L.marker(
+                [48.862923800596, 2.4155035614967],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_5a1104c4aaa15d913fb6b6efede0adbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d8fcc815cd18964debb250102d28bd9 = $(`<div id="html_0d8fcc815cd18964debb250102d28bd9" style="width: 100.0%; height: 100.0%;">             Station: Château - République<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 26             </div>`)[0];
+                popup_5a1104c4aaa15d913fb6b6efede0adbc.setContent(html_0d8fcc815cd18964debb250102d28bd9);
+            
+        
+
+        marker_59ed614184542648c7a85837ab38b998.bindPopup(popup_5a1104c4aaa15d913fb6b6efede0adbc)
+        ;
+
+        
+    
+    
+            marker_59ed614184542648c7a85837ab38b998.bindTooltip(
+                `<div>
+                     Château - République
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_233eb3e436a18455548762f84f04f01d = L.marker(
+                [48.88917613743794, 2.3833653330802917],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_84efb68215b306e87b60006a361f272e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02ad9d98f53e220e0730b4c9342121d2 = $(`<div id="html_02ad9d98f53e220e0730b4c9342121d2" style="width: 100.0%; height: 100.0%;">             Station: Thionville - Ourcq<br>             Available bikes: 2<br>             Mechanical: 1<br>             Electric: 1<br>             Capacity: 24             </div>`)[0];
+                popup_84efb68215b306e87b60006a361f272e.setContent(html_02ad9d98f53e220e0730b4c9342121d2);
+            
+        
+
+        marker_233eb3e436a18455548762f84f04f01d.bindPopup(popup_84efb68215b306e87b60006a361f272e)
+        ;
+
+        
+    
+    
+            marker_233eb3e436a18455548762f84f04f01d.bindTooltip(
+                `<div>
+                     Thionville - Ourcq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c8c72adec5d7fd3c05fd7d843cd52b8 = L.marker(
+                [48.91864865955558, 2.2814112156629562],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_fbc1c618a50fb62de0c83a7d0e565e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdf7710ff7cda8914d44fd793eff93b9 = $(`<div id="html_fdf7710ff7cda8914d44fd793eff93b9" style="width: 100.0%; height: 100.0%;">             Station: Argenteuil - Voltaire<br>             Available bikes: 9<br>             Mechanical: 6<br>             Electric: 3<br>             Capacity: 16             </div>`)[0];
+                popup_fbc1c618a50fb62de0c83a7d0e565e39.setContent(html_fdf7710ff7cda8914d44fd793eff93b9);
+            
+        
+
+        marker_6c8c72adec5d7fd3c05fd7d843cd52b8.bindPopup(popup_fbc1c618a50fb62de0c83a7d0e565e39)
+        ;
+
+        
+    
+    
+            marker_6c8c72adec5d7fd3c05fd7d843cd52b8.bindTooltip(
+                `<div>
+                     Argenteuil - Voltaire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f8a2014a623520b7fe3f196d5bdc0b2 = L.marker(
+                [48.884492238407525, 2.3703941702842717],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_82eed265459ac7aed823bf94c09fa9cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2596acbfbe008f3e6f3b0ef6b1e349eb = $(`<div id="html_2596acbfbe008f3e6f3b0ef6b1e349eb" style="width: 100.0%; height: 100.0%;">             Station: Quai de la Seine<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 24             </div>`)[0];
+                popup_82eed265459ac7aed823bf94c09fa9cd.setContent(html_2596acbfbe008f3e6f3b0ef6b1e349eb);
+            
+        
+
+        marker_7f8a2014a623520b7fe3f196d5bdc0b2.bindPopup(popup_82eed265459ac7aed823bf94c09fa9cd)
+        ;
+
+        
+    
+    
+            marker_7f8a2014a623520b7fe3f196d5bdc0b2.bindTooltip(
+                `<div>
+                     Quai de la Seine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f11506dc9d9cb8c620ea98bd5731c797 = L.marker(
+                [48.87745567681383, 2.309694221419506],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_cdaa3a2cc0c2a2f1529d39bf8b5c50cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98924665708fa9c703a544fbb3e81f2f = $(`<div id="html_98924665708fa9c703a544fbb3e81f2f" style="width: 100.0%; height: 100.0%;">             Station: Lisbonne - Monceau<br>             Available bikes: 18<br>             Mechanical: 5<br>             Electric: 13<br>             Capacity: 33             </div>`)[0];
+                popup_cdaa3a2cc0c2a2f1529d39bf8b5c50cc.setContent(html_98924665708fa9c703a544fbb3e81f2f);
+            
+        
+
+        marker_f11506dc9d9cb8c620ea98bd5731c797.bindPopup(popup_cdaa3a2cc0c2a2f1529d39bf8b5c50cc)
+        ;
+
+        
+    
+    
+            marker_f11506dc9d9cb8c620ea98bd5731c797.bindTooltip(
+                `<div>
+                     Lisbonne - Monceau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24e786618e30697fddf6ede179d0a36d = L.marker(
+                [48.845515089794, 2.3726498446286],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c2cfd09948a6354765fc4e1a139e2f9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88d714b4216b830463d2681d62bf165 = $(`<div id="html_c88d714b4216b830463d2681d62bf165" style="width: 100.0%; height: 100.0%;">             Station: Gare de Lyon - Place Louis Armand<br>             Available bikes: 54<br>             Mechanical: 38<br>             Electric: 16<br>             Capacity: 60             </div>`)[0];
+                popup_c2cfd09948a6354765fc4e1a139e2f9b.setContent(html_c88d714b4216b830463d2681d62bf165);
+            
+        
+
+        marker_24e786618e30697fddf6ede179d0a36d.bindPopup(popup_c2cfd09948a6354765fc4e1a139e2f9b)
+        ;
+
+        
+    
+    
+            marker_24e786618e30697fddf6ede179d0a36d.bindTooltip(
+                `<div>
+                     Gare de Lyon - Place Louis Armand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97ba98d08fe024c344676e4308f4b51f = L.marker(
+                [48.8554439, 2.2704418],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_d795322efbfa1b885f96cc921491fc0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9298a10b8a0dc9b4520674902c355b1a = $(`<div id="html_9298a10b8a0dc9b4520674902c355b1a" style="width: 100.0%; height: 100.0%;">             Station: Ranelagh - Mozart<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 6             </div>`)[0];
+                popup_d795322efbfa1b885f96cc921491fc0f.setContent(html_9298a10b8a0dc9b4520674902c355b1a);
+            
+        
+
+        marker_97ba98d08fe024c344676e4308f4b51f.bindPopup(popup_d795322efbfa1b885f96cc921491fc0f)
+        ;
+
+        
+    
+    
+            marker_97ba98d08fe024c344676e4308f4b51f.bindTooltip(
+                `<div>
+                     Ranelagh - Mozart
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_052f76969a11eb798de9e18c60ac6192 = L.marker(
+                [48.88006587474148, 2.3310810327529907],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_72410f55d0ef6b910db8d19f2a8339e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dbd3f75383bcbbd40e83d5402a00f31 = $(`<div id="html_3dbd3f75383bcbbd40e83d5402a00f31" style="width: 100.0%; height: 100.0%;">             Station: Moncey - Blanche<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 17             </div>`)[0];
+                popup_72410f55d0ef6b910db8d19f2a8339e7.setContent(html_3dbd3f75383bcbbd40e83d5402a00f31);
+            
+        
+
+        marker_052f76969a11eb798de9e18c60ac6192.bindPopup(popup_72410f55d0ef6b910db8d19f2a8339e7)
+        ;
+
+        
+    
+    
+            marker_052f76969a11eb798de9e18c60ac6192.bindTooltip(
+                `<div>
+                     Moncey - Blanche
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f12c50060289b456a0342097741a5930 = L.marker(
+                [48.881949, 2.352339],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_8901b2cf207b7825491d8282605289bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_676b5cea81f7ed654a5c7921252d5ebb = $(`<div id="html_676b5cea81f7ed654a5c7921252d5ebb" style="width: 100.0%; height: 100.0%;">             Station: Gare du Nord - Hôpital Lariboisière<br>             Available bikes: 2<br>             Mechanical: 1<br>             Electric: 1<br>             Capacity: 49             </div>`)[0];
+                popup_8901b2cf207b7825491d8282605289bd.setContent(html_676b5cea81f7ed654a5c7921252d5ebb);
+            
+        
+
+        marker_f12c50060289b456a0342097741a5930.bindPopup(popup_8901b2cf207b7825491d8282605289bd)
+        ;
+
+        
+    
+    
+            marker_f12c50060289b456a0342097741a5930.bindTooltip(
+                `<div>
+                     Gare du Nord - Hôpital Lariboisière
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16955672582aff8f70295b13b1ed35a2 = L.marker(
+                [48.929867194519, 2.2836696356535],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_a06391f7bc76d0031178797b8b5a18b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96c1bc811ea5889fe56a9ab768148a4b = $(`<div id="html_96c1bc811ea5889fe56a9ab768148a4b" style="width: 100.0%; height: 100.0%;">             Station: Redoute - Les Courtilles<br>             Available bikes: 16<br>             Mechanical: 14<br>             Electric: 2<br>             Capacity: 40             </div>`)[0];
+                popup_a06391f7bc76d0031178797b8b5a18b7.setContent(html_96c1bc811ea5889fe56a9ab768148a4b);
+            
+        
+
+        marker_16955672582aff8f70295b13b1ed35a2.bindPopup(popup_a06391f7bc76d0031178797b8b5a18b7)
+        ;
+
+        
+    
+    
+            marker_16955672582aff8f70295b13b1ed35a2.bindTooltip(
+                `<div>
+                     Redoute - Les Courtilles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf072c0114bc5c1c4d1f601616f726e8 = L.marker(
+                [48.88022154052015, 2.2854680567979813],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_562d96bf68c70d05d93d91282e4f290d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cc3ff527a7dd5f4f086f05bbb536a8d = $(`<div id="html_4cc3ff527a7dd5f4f086f05bbb536a8d" style="width: 100.0%; height: 100.0%;">             Station: Belidor - Gouvion-Saint-Cyr<br>             Available bikes: 14<br>             Mechanical: 13<br>             Electric: 1<br>             Capacity: 39             </div>`)[0];
+                popup_562d96bf68c70d05d93d91282e4f290d.setContent(html_4cc3ff527a7dd5f4f086f05bbb536a8d);
+            
+        
+
+        marker_bf072c0114bc5c1c4d1f601616f726e8.bindPopup(popup_562d96bf68c70d05d93d91282e4f290d)
+        ;
+
+        
+    
+    
+            marker_bf072c0114bc5c1c4d1f601616f726e8.bindTooltip(
+                `<div>
+                     Belidor - Gouvion-Saint-Cyr
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2b08ccbb23c5556acc5bcccd70f4929 = L.marker(
+                [48.83761417037952, 2.397253782195704],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_155ed4ed82169ea6d2a4b69dc161af7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01664521e8e95262641a0e5065ed8612 = $(`<div id="html_01664521e8e95262641a0e5065ed8612" style="width: 100.0%; height: 100.0%;">             Station: Claude Decaen - Cannebière<br>             Available bikes: 3<br>             Mechanical: 2<br>             Electric: 1<br>             Capacity: 27             </div>`)[0];
+                popup_155ed4ed82169ea6d2a4b69dc161af7a.setContent(html_01664521e8e95262641a0e5065ed8612);
+            
+        
+
+        marker_c2b08ccbb23c5556acc5bcccd70f4929.bindPopup(popup_155ed4ed82169ea6d2a4b69dc161af7a)
+        ;
+
+        
+    
+    
+            marker_c2b08ccbb23c5556acc5bcccd70f4929.bindTooltip(
+                `<div>
+                     Claude Decaen - Cannebière
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4025ce6b1531c548d331cb0fe548b19f = L.marker(
+                [48.861142162761, 2.3677996181077],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_0641f14bb4d116542d3c9d8bd9aefb7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d147c3f7c4d3fcad901c52dbe78f30cf = $(`<div id="html_d147c3f7c4d3fcad901c52dbe78f30cf" style="width: 100.0%; height: 100.0%;">             Station: Amelot - Saint-Sébastien<br>             Available bikes: 12<br>             Mechanical: 8<br>             Electric: 4<br>             Capacity: 30             </div>`)[0];
+                popup_0641f14bb4d116542d3c9d8bd9aefb7e.setContent(html_d147c3f7c4d3fcad901c52dbe78f30cf);
+            
+        
+
+        marker_4025ce6b1531c548d331cb0fe548b19f.bindPopup(popup_0641f14bb4d116542d3c9d8bd9aefb7e)
+        ;
+
+        
+    
+    
+            marker_4025ce6b1531c548d331cb0fe548b19f.bindTooltip(
+                `<div>
+                     Amelot - Saint-Sébastien
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce6f5b91846a509c599b017115459dc6 = L.marker(
+                [48.847020571652, 2.3464982619671],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_937521667201cfbdb38b34876f6f8f3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3775276c6ce45d6901d361ac77bc36f1 = $(`<div id="html_3775276c6ce45d6901d361ac77bc36f1" style="width: 100.0%; height: 100.0%;">             Station: Panthéon - Valette<br>             Available bikes: 35<br>             Mechanical: 9<br>             Electric: 26<br>             Capacity: 39             </div>`)[0];
+                popup_937521667201cfbdb38b34876f6f8f3c.setContent(html_3775276c6ce45d6901d361ac77bc36f1);
+            
+        
+
+        marker_ce6f5b91846a509c599b017115459dc6.bindPopup(popup_937521667201cfbdb38b34876f6f8f3c)
+        ;
+
+        
+    
+    
+            marker_ce6f5b91846a509c599b017115459dc6.bindTooltip(
+                `<div>
+                     Panthéon - Valette
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cfc38756bbadb2b37d99ce165d686b8 = L.marker(
+                [48.849063299501, 2.3558086529374],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_156f3ea0cbba2f0daff8e5017e4a0891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015634285072097b5ea088aa0c6699f4 = $(`<div id="html_015634285072097b5ea088aa0c6699f4" style="width: 100.0%; height: 100.0%;">             Station: Institut du Monde Arabe - Saint-Germain<br>             Available bikes: 31<br>             Mechanical: 25<br>             Electric: 6<br>             Capacity: 40             </div>`)[0];
+                popup_156f3ea0cbba2f0daff8e5017e4a0891.setContent(html_015634285072097b5ea088aa0c6699f4);
+            
+        
+
+        marker_1cfc38756bbadb2b37d99ce165d686b8.bindPopup(popup_156f3ea0cbba2f0daff8e5017e4a0891)
+        ;
+
+        
+    
+    
+            marker_1cfc38756bbadb2b37d99ce165d686b8.bindTooltip(
+                `<div>
+                     Institut du Monde Arabe - Saint-Germain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c1e174a7386fa3a7292a309da7ae66c = L.marker(
+                [48.852804604940296, 2.293077029857222],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_27f75bba08b20dfe778baf8d35d21743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e5773a2caed250eb8c6a4c333fd661 = $(`<div id="html_89e5773a2caed250eb8c6a4c333fd661" style="width: 100.0%; height: 100.0%;">             Station: Desaix - Edgar Faure<br>             Available bikes: 5<br>             Mechanical: 5<br>             Electric: 0<br>             Capacity: 12             </div>`)[0];
+                popup_27f75bba08b20dfe778baf8d35d21743.setContent(html_89e5773a2caed250eb8c6a4c333fd661);
+            
+        
+
+        marker_7c1e174a7386fa3a7292a309da7ae66c.bindPopup(popup_27f75bba08b20dfe778baf8d35d21743)
+        ;
+
+        
+    
+    
+            marker_7c1e174a7386fa3a7292a309da7ae66c.bindTooltip(
+                `<div>
+                     Desaix - Edgar Faure
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_880573a3435e869bef75c60fa387cc38 = L.marker(
+                [48.88364782887555, 2.2952447086572647],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_25b3568c87784c1d3c9120f8bebd9027 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b419c1ff169b495fc7f411dd59ac26d9 = $(`<div id="html_b419c1ff169b495fc7f411dd59ac26d9" style="width: 100.0%; height: 100.0%;">             Station: Pereire - Rennequin<br>             Available bikes: 8<br>             Mechanical: 4<br>             Electric: 4<br>             Capacity: 23             </div>`)[0];
+                popup_25b3568c87784c1d3c9120f8bebd9027.setContent(html_b419c1ff169b495fc7f411dd59ac26d9);
+            
+        
+
+        marker_880573a3435e869bef75c60fa387cc38.bindPopup(popup_25b3568c87784c1d3c9120f8bebd9027)
+        ;
+
+        
+    
+    
+            marker_880573a3435e869bef75c60fa387cc38.bindTooltip(
+                `<div>
+                     Pereire - Rennequin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10d955141dae392f513ea201f333cb09 = L.marker(
+                [48.862147844548, 2.3772348091006],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_1726902596733cb0d08dfc6da55392d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02c54c8c36fa76d2ffd85e9d7c16621b = $(`<div id="html_02c54c8c36fa76d2ffd85e9d7c16621b" style="width: 100.0%; height: 100.0%;">             Station: Saint-Ambroise - Parmentier<br>             Available bikes: 2<br>             Mechanical: 2<br>             Electric: 0<br>             Capacity: 38             </div>`)[0];
+                popup_1726902596733cb0d08dfc6da55392d8.setContent(html_02c54c8c36fa76d2ffd85e9d7c16621b);
+            
+        
+
+        marker_10d955141dae392f513ea201f333cb09.bindPopup(popup_1726902596733cb0d08dfc6da55392d8)
+        ;
+
+        
+    
+    
+            marker_10d955141dae392f513ea201f333cb09.bindTooltip(
+                `<div>
+                     Saint-Ambroise - Parmentier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8bdbddceffd96b01f96f51f1028da48 = L.marker(
+                [48.82237977153955, 2.4586871266365056],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_23abe0615372bc7f83320e7e735696a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fae67fcbd94c2c31a39611f0b2ca98 = $(`<div id="html_49fae67fcbd94c2c31a39611f0b2ca98" style="width: 100.0%; height: 100.0%;">             Station: Pyramide - Ecole du Breuil<br>             Available bikes: 21<br>             Mechanical: 18<br>             Electric: 3<br>             Capacity: 34             </div>`)[0];
+                popup_23abe0615372bc7f83320e7e735696a6.setContent(html_49fae67fcbd94c2c31a39611f0b2ca98);
+            
+        
+
+        marker_d8bdbddceffd96b01f96f51f1028da48.bindPopup(popup_23abe0615372bc7f83320e7e735696a6)
+        ;
+
+        
+    
+    
+            marker_d8bdbddceffd96b01f96f51f1028da48.bindTooltip(
+                `<div>
+                     Pyramide - Ecole du Breuil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35e2470584a23f544d6cf8e3b159daab = L.marker(
+                [48.8795431, 2.3264628],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_293caa181534ec6b31623854362bf933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16e7e8046909080d67c4d6e8115ef5c7 = $(`<div id="html_16e7e8046909080d67c4d6e8115ef5c7" style="width: 100.0%; height: 100.0%;">             Station: Liège - Moscou<br>             Available bikes: 4<br>             Mechanical: 2<br>             Electric: 2<br>             Capacity: 17             </div>`)[0];
+                popup_293caa181534ec6b31623854362bf933.setContent(html_16e7e8046909080d67c4d6e8115ef5c7);
+            
+        
+
+        marker_35e2470584a23f544d6cf8e3b159daab.bindPopup(popup_293caa181534ec6b31623854362bf933)
+        ;
+
+        
+    
+    
+            marker_35e2470584a23f544d6cf8e3b159daab.bindTooltip(
+                `<div>
+                     Liège - Moscou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d108c174999191ccdf81e55bb1103676 = L.marker(
+                [48.86131452758348, 2.440614402294159],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_0e9ca7cd85cfcf8cd946ab908ef80426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18dc26082b53c437f782f3c1079aa162 = $(`<div id="html_18dc26082b53c437f782f3c1079aa162" style="width: 100.0%; height: 100.0%;">             Station: Mairie de Montreuil<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 52             </div>`)[0];
+                popup_0e9ca7cd85cfcf8cd946ab908ef80426.setContent(html_18dc26082b53c437f782f3c1079aa162);
+            
+        
+
+        marker_d108c174999191ccdf81e55bb1103676.bindPopup(popup_0e9ca7cd85cfcf8cd946ab908ef80426)
+        ;
+
+        
+    
+    
+            marker_d108c174999191ccdf81e55bb1103676.bindTooltip(
+                `<div>
+                     Mairie de Montreuil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15846ab62f3c5fa3db94941ca0c7ddc5 = L.marker(
+                [48.764615483395254, 2.4071189761161804],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_5a1b1dc74ce834177d0040de9808f9c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7359ba1b451d2303fc317bb4c93a4f8c = $(`<div id="html_7359ba1b451d2303fc317bb4c93a4f8c" style="width: 100.0%; height: 100.0%;">             Station: Rouget de Lisle<br>             Available bikes: 11<br>             Mechanical: 8<br>             Electric: 3<br>             Capacity: 35             </div>`)[0];
+                popup_5a1b1dc74ce834177d0040de9808f9c2.setContent(html_7359ba1b451d2303fc317bb4c93a4f8c);
+            
+        
+
+        marker_15846ab62f3c5fa3db94941ca0c7ddc5.bindPopup(popup_5a1b1dc74ce834177d0040de9808f9c2)
+        ;
+
+        
+    
+    
+            marker_15846ab62f3c5fa3db94941ca0c7ddc5.bindTooltip(
+                `<div>
+                     Rouget de Lisle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8567e3e94e7650ab78c30b29abbe96a3 = L.marker(
+                [48.8687591, 2.4329931],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_453cef649606cc08939d0de24265054a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa44e681ad63e4c76c6440101bd22625 = $(`<div id="html_fa44e681ad63e4c76c6440101bd22625" style="width: 100.0%; height: 100.0%;">             Station: Place Du Général De Gaulle<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 26             </div>`)[0];
+                popup_453cef649606cc08939d0de24265054a.setContent(html_fa44e681ad63e4c76c6440101bd22625);
+            
+        
+
+        marker_8567e3e94e7650ab78c30b29abbe96a3.bindPopup(popup_453cef649606cc08939d0de24265054a)
+        ;
+
+        
+    
+    
+            marker_8567e3e94e7650ab78c30b29abbe96a3.bindTooltip(
+                `<div>
+                     Place Du Général De Gaulle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9d0e013f37cdb71f910276943c1b20e = L.marker(
+                [48.83649602312711, 2.479562651149885],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_3d3a82e8d412172577bbcd716f457b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a62dff8b2934ddec9a73fe8bdb725de = $(`<div id="html_6a62dff8b2934ddec9a73fe8bdb725de" style="width: 100.0%; height: 100.0%;">             Station: Charles de Gaulle - Beauté<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 49             </div>`)[0];
+                popup_3d3a82e8d412172577bbcd716f457b86.setContent(html_6a62dff8b2934ddec9a73fe8bdb725de);
+            
+        
+
+        marker_b9d0e013f37cdb71f910276943c1b20e.bindPopup(popup_3d3a82e8d412172577bbcd716f457b86)
+        ;
+
+        
+    
+    
+            marker_b9d0e013f37cdb71f910276943c1b20e.bindTooltip(
+                `<div>
+                     Charles de Gaulle - Beauté
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ae16d2c9f707aca0a115c9058754b16 = L.marker(
+                [48.821466904768, 2.3215785772007],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_016665dc451bbe51fd85b37689b5cf45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35c1b9530abe1f2103f2387c54df2d07 = $(`<div id="html_35c1b9530abe1f2103f2387c54df2d07" style="width: 100.0%; height: 100.0%;">             Station: Cimetière de Montrouge<br>             Available bikes: 10<br>             Mechanical: 1<br>             Electric: 9<br>             Capacity: 58             </div>`)[0];
+                popup_016665dc451bbe51fd85b37689b5cf45.setContent(html_35c1b9530abe1f2103f2387c54df2d07);
+            
+        
+
+        marker_4ae16d2c9f707aca0a115c9058754b16.bindPopup(popup_016665dc451bbe51fd85b37689b5cf45)
+        ;
+
+        
+    
+    
+            marker_4ae16d2c9f707aca0a115c9058754b16.bindTooltip(
+                `<div>
+                     Cimetière de Montrouge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1834e1564f550e78e0eeef06656b0bc7 = L.marker(
+                [48.83372430280548, 2.2713854536414146],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_1898f5bde82931d2945072f1746ffb63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8ed1afe2795987804d73b8dd1dea1cb = $(`<div id="html_e8ed1afe2795987804d73b8dd1dea1cb" style="width: 100.0%; height: 100.0%;">             Station: Henry Farman<br>             Available bikes: 12<br>             Mechanical: 7<br>             Electric: 5<br>             Capacity: 16             </div>`)[0];
+                popup_1898f5bde82931d2945072f1746ffb63.setContent(html_e8ed1afe2795987804d73b8dd1dea1cb);
+            
+        
+
+        marker_1834e1564f550e78e0eeef06656b0bc7.bindPopup(popup_1898f5bde82931d2945072f1746ffb63)
+        ;
+
+        
+    
+    
+            marker_1834e1564f550e78e0eeef06656b0bc7.bindTooltip(
+                `<div>
+                     Henry Farman
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d3c8340b9df8a31f3c152fa19060bc8 = L.marker(
+                [48.88633710236977, 2.407338917255402],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_e17c4fe8a964e076fcd07537e6c52eb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc2b1ba9c2e1695872e02f4aaa53ec6a = $(`<div id="html_dc2b1ba9c2e1695872e02f4aaa53ec6a" style="width: 100.0%; height: 100.0%;">             Station: Gabriel Péri - Francisco Ferrer<br>             Available bikes: 4<br>             Mechanical: 0<br>             Electric: 4<br>             Capacity: 18             </div>`)[0];
+                popup_e17c4fe8a964e076fcd07537e6c52eb2.setContent(html_dc2b1ba9c2e1695872e02f4aaa53ec6a);
+            
+        
+
+        marker_1d3c8340b9df8a31f3c152fa19060bc8.bindPopup(popup_e17c4fe8a964e076fcd07537e6c52eb2)
+        ;
+
+        
+    
+    
+            marker_1d3c8340b9df8a31f3c152fa19060bc8.bindTooltip(
+                `<div>
+                     Gabriel Péri - Francisco Ferrer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba0aac1e12037e881da4526b413bd015 = L.marker(
+                [48.81217465201, 2.3035024699104],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_fe31343f126d1ef7c73611b271fdd3c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a5b9fbaf5684058ecea2082311d224e = $(`<div id="html_2a5b9fbaf5684058ecea2082311d224e" style="width: 100.0%; height: 100.0%;">             Station: Marne - Germain Dardan<br>             Available bikes: 8<br>             Mechanical: 1<br>             Electric: 7<br>             Capacity: 22             </div>`)[0];
+                popup_fe31343f126d1ef7c73611b271fdd3c8.setContent(html_2a5b9fbaf5684058ecea2082311d224e);
+            
+        
+
+        marker_ba0aac1e12037e881da4526b413bd015.bindPopup(popup_fe31343f126d1ef7c73611b271fdd3c8)
+        ;
+
+        
+    
+    
+            marker_ba0aac1e12037e881da4526b413bd015.bindTooltip(
+                `<div>
+                     Marne - Germain Dardan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cae4861c67e5f33aa3f99a66f2e417e6 = L.marker(
+                [48.7985844, 2.3821302],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_8a888281b723dbc0a94082db43ca3e47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_301ee806cd648d02e7dc121fb2a33770 = $(`<div id="html_301ee806cd648d02e7dc121fb2a33770" style="width: 100.0%; height: 100.0%;">             Station: Concorde - Stalingrad<br>             Available bikes: 4<br>             Mechanical: 1<br>             Electric: 3<br>             Capacity: 35             </div>`)[0];
+                popup_8a888281b723dbc0a94082db43ca3e47.setContent(html_301ee806cd648d02e7dc121fb2a33770);
+            
+        
+
+        marker_cae4861c67e5f33aa3f99a66f2e417e6.bindPopup(popup_8a888281b723dbc0a94082db43ca3e47)
+        ;
+
+        
+    
+    
+            marker_cae4861c67e5f33aa3f99a66f2e417e6.bindTooltip(
+                `<div>
+                     Concorde - Stalingrad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3cd550266d1f43adb8f4efd2621db2e = L.marker(
+                [48.877436681515796, 2.3860743641853337],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_e323c4f6a2919cbb3e74d0feb25fa7aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa6fb90347a23e3fd956d41fd5ae900a = $(`<div id="html_fa6fb90347a23e3fd956d41fd5ae900a" style="width: 100.0%; height: 100.0%;">             Station: Carducci - Place Hannah Arendt<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 27             </div>`)[0];
+                popup_e323c4f6a2919cbb3e74d0feb25fa7aa.setContent(html_fa6fb90347a23e3fd956d41fd5ae900a);
+            
+        
+
+        marker_f3cd550266d1f43adb8f4efd2621db2e.bindPopup(popup_e323c4f6a2919cbb3e74d0feb25fa7aa)
+        ;
+
+        
+    
+    
+            marker_f3cd550266d1f43adb8f4efd2621db2e.bindTooltip(
+                `<div>
+                     Carducci - Place Hannah Arendt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13dcecb20a1f376828c91fa8f6d088d6 = L.marker(
+                [48.886472466142, 2.3328901827335],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_724f8608481041c32d755c956137cc8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aecbdb39335c60d64783d5ff9242efa4 = $(`<div id="html_aecbdb39335c60d64783d5ff9242efa4" style="width: 100.0%; height: 100.0%;">             Station: Cimetière de Montmartre<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 43             </div>`)[0];
+                popup_724f8608481041c32d755c956137cc8e.setContent(html_aecbdb39335c60d64783d5ff9242efa4);
+            
+        
+
+        marker_13dcecb20a1f376828c91fa8f6d088d6.bindPopup(popup_724f8608481041c32d755c956137cc8e)
+        ;
+
+        
+    
+    
+            marker_13dcecb20a1f376828c91fa8f6d088d6.bindTooltip(
+                `<div>
+                     Cimetière de Montmartre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da8d8d487c4b6ae24760c1df97227d44 = L.marker(
+                [48.8667175, 2.3692541],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_bae1e43cc2900a08861d8ee47f61fa8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce923f241c58e16e807a5d1a445c2714 = $(`<div id="html_ce923f241c58e16e807a5d1a445c2714" style="width: 100.0%; height: 100.0%;">             Station: Richard Lenoir - Republique<br>             Available bikes: 3<br>             Mechanical: 3<br>             Electric: 0<br>             Capacity: 58             </div>`)[0];
+                popup_bae1e43cc2900a08861d8ee47f61fa8e.setContent(html_ce923f241c58e16e807a5d1a445c2714);
+            
+        
+
+        marker_da8d8d487c4b6ae24760c1df97227d44.bindPopup(popup_bae1e43cc2900a08861d8ee47f61fa8e)
+        ;
+
+        
+    
+    
+            marker_da8d8d487c4b6ae24760c1df97227d44.bindTooltip(
+                `<div>
+                     Richard Lenoir - Republique
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24fb7cd13b748a9056ee657651641e14 = L.marker(
+                [48.84706173362218, 2.4787822365760808],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_cdbc0da37189d76297f4f71a80e7c2b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01a86c46b69af4ddfcdbde8e06c460ef = $(`<div id="html_01a86c46b69af4ddfcdbde8e06c460ef" style="width: 100.0%; height: 100.0%;">             Station: Cimetière de Fontenay-sous-Bois<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 15             </div>`)[0];
+                popup_cdbc0da37189d76297f4f71a80e7c2b2.setContent(html_01a86c46b69af4ddfcdbde8e06c460ef);
+            
+        
+
+        marker_24fb7cd13b748a9056ee657651641e14.bindPopup(popup_cdbc0da37189d76297f4f71a80e7c2b2)
+        ;
+
+        
+    
+    
+            marker_24fb7cd13b748a9056ee657651641e14.bindTooltip(
+                `<div>
+                     Cimetière de Fontenay-sous-Bois
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bbd9f05e9db8c0b76ebda8a4769877a = L.marker(
+                [48.818144834008976, 2.271184623241425],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_f6e25c79694a84f1cdb5988b70efa2bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa9c83006e75e1340803cc76690b51be = $(`<div id="html_aa9c83006e75e1340803cc76690b51be" style="width: 100.0%; height: 100.0%;">             Station: Lucie Aubrac - Fort<br>             Available bikes: 6<br>             Mechanical: 0<br>             Electric: 6<br>             Capacity: 30             </div>`)[0];
+                popup_f6e25c79694a84f1cdb5988b70efa2bb.setContent(html_aa9c83006e75e1340803cc76690b51be);
+            
+        
+
+        marker_8bbd9f05e9db8c0b76ebda8a4769877a.bindPopup(popup_f6e25c79694a84f1cdb5988b70efa2bb)
+        ;
+
+        
+    
+    
+            marker_8bbd9f05e9db8c0b76ebda8a4769877a.bindTooltip(
+                `<div>
+                     Lucie Aubrac - Fort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9de203dc8ae2d53447c72f1dbf457906 = L.marker(
+                [48.831632518293, 2.3293121159077],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_0f1b54dce559380e4321f3411fa71685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5911261566ef00f8e5f528105d698916 = $(`<div id="html_5911261566ef00f8e5f528105d698916" style="width: 100.0%; height: 100.0%;">             Station: Mouton Duvernet - Général Leclerc<br>             Available bikes: 3<br>             Mechanical: 2<br>             Electric: 1<br>             Capacity: 28             </div>`)[0];
+                popup_0f1b54dce559380e4321f3411fa71685.setContent(html_5911261566ef00f8e5f528105d698916);
+            
+        
+
+        marker_9de203dc8ae2d53447c72f1dbf457906.bindPopup(popup_0f1b54dce559380e4321f3411fa71685)
+        ;
+
+        
+    
+    
+            marker_9de203dc8ae2d53447c72f1dbf457906.bindTooltip(
+                `<div>
+                     Mouton Duvernet - Général Leclerc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f52abff18e9692141b719843794ecd8 = L.marker(
+                [48.89401874744574, 2.3319872841238976],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_5a20c3a88511cfe1021ca8306dc9c489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f703426f9df9ca80ea6a6e25c72bb05e = $(`<div id="html_f703426f9df9ca80ea6a6e25c72bb05e" style="width: 100.0%; height: 100.0%;">             Station: Championnet - Vauvenargues<br>             Available bikes: 3<br>             Mechanical: 1<br>             Electric: 2<br>             Capacity: 33             </div>`)[0];
+                popup_5a20c3a88511cfe1021ca8306dc9c489.setContent(html_f703426f9df9ca80ea6a6e25c72bb05e);
+            
+        
+
+        marker_7f52abff18e9692141b719843794ecd8.bindPopup(popup_5a20c3a88511cfe1021ca8306dc9c489)
+        ;
+
+        
+    
+    
+            marker_7f52abff18e9692141b719843794ecd8.bindTooltip(
+                `<div>
+                     Championnet - Vauvenargues
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c3ea81a40e2b0bae776fc4b051d95ea = L.marker(
+                [48.84993035512154, 2.294612042605877],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_48c128707d6dbe8793b2c63c338e84ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_595e10ec9db9ac96d6a7151e9c1cf1f4 = $(`<div id="html_595e10ec9db9ac96d6a7151e9c1cf1f4" style="width: 100.0%; height: 100.0%;">             Station: Grenelle - Violet<br>             Available bikes: 20<br>             Mechanical: 15<br>             Electric: 5<br>             Capacity: 35             </div>`)[0];
+                popup_48c128707d6dbe8793b2c63c338e84ba.setContent(html_595e10ec9db9ac96d6a7151e9c1cf1f4);
+            
+        
+
+        marker_1c3ea81a40e2b0bae776fc4b051d95ea.bindPopup(popup_48c128707d6dbe8793b2c63c338e84ba)
+        ;
+
+        
+    
+    
+            marker_1c3ea81a40e2b0bae776fc4b051d95ea.bindTooltip(
+                `<div>
+                     Grenelle - Violet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b52f16d270dfcb48a2d6a44403dfc08e = L.marker(
+                [48.86703740186721, 2.336716018617153],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_618645d5eecc2aa0dce3ed408e7fd5d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7bc4b8ed4403b65c6bfa5c6f6771138 = $(`<div id="html_c7bc4b8ed4403b65c6bfa5c6f6771138" style="width: 100.0%; height: 100.0%;">             Station: Chabanais - Petits Champs<br>             Available bikes: 27<br>             Mechanical: 18<br>             Electric: 9<br>             Capacity: 30             </div>`)[0];
+                popup_618645d5eecc2aa0dce3ed408e7fd5d2.setContent(html_c7bc4b8ed4403b65c6bfa5c6f6771138);
+            
+        
+
+        marker_b52f16d270dfcb48a2d6a44403dfc08e.bindPopup(popup_618645d5eecc2aa0dce3ed408e7fd5d2)
+        ;
+
+        
+    
+    
+            marker_b52f16d270dfcb48a2d6a44403dfc08e.bindTooltip(
+                `<div>
+                     Chabanais - Petits Champs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d72e68976ff9df2c54abb485ef0ee36 = L.marker(
+                [48.890451120965, 2.3490573929687],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_00740014f2e415a77455687d3e0de65a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84dc0ce3d63f9d01fc6d57c58deb6e4c = $(`<div id="html_84dc0ce3d63f9d01fc6d57c58deb6e4c" style="width: 100.0%; height: 100.0%;">             Station: Marcadet - Barbès<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 37             </div>`)[0];
+                popup_00740014f2e415a77455687d3e0de65a.setContent(html_84dc0ce3d63f9d01fc6d57c58deb6e4c);
+            
+        
+
+        marker_7d72e68976ff9df2c54abb485ef0ee36.bindPopup(popup_00740014f2e415a77455687d3e0de65a)
+        ;
+
+        
+    
+    
+            marker_7d72e68976ff9df2c54abb485ef0ee36.bindTooltip(
+                `<div>
+                     Marcadet - Barbès
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84302d7c4100390e10b6388bd710c615 = L.marker(
+                [48.87614039826388, 2.301303138307601],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_94824e4765d72a0b4a24f62d96ee7f16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_810fce69c2a2841971ebe69708def5d2 = $(`<div id="html_810fce69c2a2841971ebe69708def5d2" style="width: 100.0%; height: 100.0%;">             Station: Bertie Albrecht - Hoche<br>             Available bikes: 25<br>             Mechanical: 6<br>             Electric: 19<br>             Capacity: 32             </div>`)[0];
+                popup_94824e4765d72a0b4a24f62d96ee7f16.setContent(html_810fce69c2a2841971ebe69708def5d2);
+            
+        
+
+        marker_84302d7c4100390e10b6388bd710c615.bindPopup(popup_94824e4765d72a0b4a24f62d96ee7f16)
+        ;
+
+        
+    
+    
+            marker_84302d7c4100390e10b6388bd710c615.bindTooltip(
+                `<div>
+                     Bertie Albrecht - Hoche
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bd585fcffb8c63d2123aab6a25872f9 = L.marker(
+                [48.81111581390707, 2.3145738624448158],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_bb6d1d880a92aa75b3677c2524616c6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a3b2e234ef3d4bb19ce950a5fd136fc = $(`<div id="html_1a3b2e234ef3d4bb19ce950a5fd136fc" style="width: 100.0%; height: 100.0%;">             Station: Molière - République<br>             Available bikes: 4<br>             Mechanical: 0<br>             Electric: 4<br>             Capacity: 30             </div>`)[0];
+                popup_bb6d1d880a92aa75b3677c2524616c6e.setContent(html_1a3b2e234ef3d4bb19ce950a5fd136fc);
+            
+        
+
+        marker_4bd585fcffb8c63d2123aab6a25872f9.bindPopup(popup_bb6d1d880a92aa75b3677c2524616c6e)
+        ;
+
+        
+    
+    
+            marker_4bd585fcffb8c63d2123aab6a25872f9.bindTooltip(
+                `<div>
+                     Molière - République
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f755c9b805757bb6484970a523db63ac = L.marker(
+                [48.826701758539215, 2.3384983465075493],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_1e43dab79f51ec0b7d7a9ecfb7712535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_452ffdc8424db12ed6925f07a723dadf = $(`<div id="html_452ffdc8424db12ed6925f07a723dadf" style="width: 100.0%; height: 100.0%;">             Station: Sibelle - Alésia<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 37             </div>`)[0];
+                popup_1e43dab79f51ec0b7d7a9ecfb7712535.setContent(html_452ffdc8424db12ed6925f07a723dadf);
+            
+        
+
+        marker_f755c9b805757bb6484970a523db63ac.bindPopup(popup_1e43dab79f51ec0b7d7a9ecfb7712535)
+        ;
+
+        
+    
+    
+            marker_f755c9b805757bb6484970a523db63ac.bindTooltip(
+                `<div>
+                     Sibelle - Alésia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13c67b99257f38e77703aba548beee87 = L.marker(
+                [48.83495885166784, 2.2416803240776066],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_46cc345b47fe1f321a7fa98cc2c9b2df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da4432864af257534aa62dd24f6b28b4 = $(`<div id="html_da4432864af257534aa62dd24f6b28b4" style="width: 100.0%; height: 100.0%;">             Station: Hôtel de Ville de Boulogne Billancourt<br>             Available bikes: 21<br>             Mechanical: 15<br>             Electric: 6<br>             Capacity: 26             </div>`)[0];
+                popup_46cc345b47fe1f321a7fa98cc2c9b2df.setContent(html_da4432864af257534aa62dd24f6b28b4);
+            
+        
+
+        marker_13c67b99257f38e77703aba548beee87.bindPopup(popup_46cc345b47fe1f321a7fa98cc2c9b2df)
+        ;
+
+        
+    
+    
+            marker_13c67b99257f38e77703aba548beee87.bindTooltip(
+                `<div>
+                     Hôtel de Ville de Boulogne Billancourt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1885158975316d0394bc9ddd926b237 = L.marker(
+                [48.89110239200789, 2.402843534946442],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c1f2890c9b64843a6e892ffff0cd2bfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2531dd57ff7cdeff99f4aa5f097c2a32 = $(`<div id="html_2531dd57ff7cdeff99f4aa5f097c2a32" style="width: 100.0%; height: 100.0%;">             Station: Hoche - Jean Lolive<br>             Available bikes: 11<br>             Mechanical: 7<br>             Electric: 4<br>             Capacity: 24             </div>`)[0];
+                popup_c1f2890c9b64843a6e892ffff0cd2bfa.setContent(html_2531dd57ff7cdeff99f4aa5f097c2a32);
+            
+        
+
+        marker_c1885158975316d0394bc9ddd926b237.bindPopup(popup_c1f2890c9b64843a6e892ffff0cd2bfa)
+        ;
+
+        
+    
+    
+            marker_c1885158975316d0394bc9ddd926b237.bindTooltip(
+                `<div>
+                     Hoche - Jean Lolive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8440ffba1ae51bf24965ed8607c8838f = L.marker(
+                [48.872420063053, 2.3483952362828],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_25eb98f647d7f391a89befa02d4958d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d65ecc6087ca14b6337f2208610968b = $(`<div id="html_4d65ecc6087ca14b6337f2208610968b" style="width: 100.0%; height: 100.0%;">             Station: Enghien - Faubourg Poissonnière<br>             Available bikes: 12<br>             Mechanical: 6<br>             Electric: 6<br>             Capacity: 33             </div>`)[0];
+                popup_25eb98f647d7f391a89befa02d4958d1.setContent(html_4d65ecc6087ca14b6337f2208610968b);
+            
+        
+
+        marker_8440ffba1ae51bf24965ed8607c8838f.bindPopup(popup_25eb98f647d7f391a89befa02d4958d1)
+        ;
+
+        
+    
+    
+            marker_8440ffba1ae51bf24965ed8607c8838f.bindTooltip(
+                `<div>
+                     Enghien - Faubourg Poissonnière
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a72e517ebddf6dcb98ce3691b30db79e = L.marker(
+                [48.8417514, 2.3413893],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_1458c3a3acffbbb82cacc82560b4deb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc51ef865231bffe28bc89e3b507487d = $(`<div id="html_cc51ef865231bffe28bc89e3b507487d" style="width: 100.0%; height: 100.0%;">             Station: Saint-Jacques - Val de Grâce<br>             Available bikes: 16<br>             Mechanical: 1<br>             Electric: 15<br>             Capacity: 19             </div>`)[0];
+                popup_1458c3a3acffbbb82cacc82560b4deb5.setContent(html_cc51ef865231bffe28bc89e3b507487d);
+            
+        
+
+        marker_a72e517ebddf6dcb98ce3691b30db79e.bindPopup(popup_1458c3a3acffbbb82cacc82560b4deb5)
+        ;
+
+        
+    
+    
+            marker_a72e517ebddf6dcb98ce3691b30db79e.bindTooltip(
+                `<div>
+                     Saint-Jacques - Val de Grâce
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7e08042c64e63aca1d86f71b491b2bd = L.marker(
+                [48.886062068226, 2.2917001576821],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_27194a55fb713b1c83663a3d2742bdf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b0a8bc61c7c8fd1314a4756a18b026a = $(`<div id="html_2b0a8bc61c7c8fd1314a4756a18b026a" style="width: 100.0%; height: 100.0%;">             Station: Place de la Porte de Champeret<br>             Available bikes: 15<br>             Mechanical: 12<br>             Electric: 3<br>             Capacity: 28             </div>`)[0];
+                popup_27194a55fb713b1c83663a3d2742bdf8.setContent(html_2b0a8bc61c7c8fd1314a4756a18b026a);
+            
+        
+
+        marker_d7e08042c64e63aca1d86f71b491b2bd.bindPopup(popup_27194a55fb713b1c83663a3d2742bdf8)
+        ;
+
+        
+    
+    
+            marker_d7e08042c64e63aca1d86f71b491b2bd.bindTooltip(
+                `<div>
+                     Place de la Porte de Champeret
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1db48aa670502242f9e37175f0349dd = L.marker(
+                [48.81411442356866, 2.39090770483017],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_9bffa2dd3bbe687546fe9fca3ec0ce5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8f2d3711be8bc159218c7e067b81c3 = $(`<div id="html_9a8f2d3711be8bc159218c7e067b81c3" style="width: 100.0%; height: 100.0%;">             Station: Place Marcel Cachin<br>             Available bikes: 29<br>             Mechanical: 28<br>             Electric: 1<br>             Capacity: 32             </div>`)[0];
+                popup_9bffa2dd3bbe687546fe9fca3ec0ce5c.setContent(html_9a8f2d3711be8bc159218c7e067b81c3);
+            
+        
+
+        marker_f1db48aa670502242f9e37175f0349dd.bindPopup(popup_9bffa2dd3bbe687546fe9fca3ec0ce5c)
+        ;
+
+        
+    
+    
+            marker_f1db48aa670502242f9e37175f0349dd.bindTooltip(
+                `<div>
+                     Place Marcel Cachin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcedd7a77d81d3995ed21f43c1c9a21f = L.marker(
+                [48.8562118, 2.3532536],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_f362661c30a5e3453bac5446ab3285bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a139a8686e1a7b0762307b3497a047d = $(`<div id="html_3a139a8686e1a7b0762307b3497a047d" style="width: 100.0%; height: 100.0%;">             Station: Lobau - Hôtel de Ville<br>             Available bikes: 36<br>             Mechanical: 32<br>             Electric: 4<br>             Capacity: 60             </div>`)[0];
+                popup_f362661c30a5e3453bac5446ab3285bf.setContent(html_3a139a8686e1a7b0762307b3497a047d);
+            
+        
+
+        marker_dcedd7a77d81d3995ed21f43c1c9a21f.bindPopup(popup_f362661c30a5e3453bac5446ab3285bf)
+        ;
+
+        
+    
+    
+            marker_dcedd7a77d81d3995ed21f43c1c9a21f.bindTooltip(
+                `<div>
+                     Lobau - Hôtel de Ville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35bb99ac93ccb891cae31cb96c4982b1 = L.marker(
+                [48.865983, 2.275725],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_df320ac9a17c0bed288141617b7f1ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e4c712133abd4ddb63e33f8736c64d4 = $(`<div id="html_4e4c712133abd4ddb63e33f8736c64d4" style="width: 100.0%; height: 100.0%;">             Station: Benjamin Godard - Victor Hugo<br>             Available bikes: 9<br>             Mechanical: 6<br>             Electric: 3<br>             Capacity: 35             </div>`)[0];
+                popup_df320ac9a17c0bed288141617b7f1ea9.setContent(html_4e4c712133abd4ddb63e33f8736c64d4);
+            
+        
+
+        marker_35bb99ac93ccb891cae31cb96c4982b1.bindPopup(popup_df320ac9a17c0bed288141617b7f1ea9)
+        ;
+
+        
+    
+    
+            marker_35bb99ac93ccb891cae31cb96c4982b1.bindTooltip(
+                `<div>
+                     Benjamin Godard - Victor Hugo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d94222ac10829bc7f572b97e18f407c = L.marker(
+                [48.87929591733507, 2.3373600840568547],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_642c2d31ad48dcdae97bc6d093bc7c08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4bb420e200c071e86254f84691a5897 = $(`<div id="html_c4bb420e200c071e86254f84691a5897" style="width: 100.0%; height: 100.0%;">             Station: Toudouze - Clauzel<br>             Available bikes: 3<br>             Mechanical: 2<br>             Electric: 1<br>             Capacity: 21             </div>`)[0];
+                popup_642c2d31ad48dcdae97bc6d093bc7c08.setContent(html_c4bb420e200c071e86254f84691a5897);
+            
+        
+
+        marker_0d94222ac10829bc7f572b97e18f407c.bindPopup(popup_642c2d31ad48dcdae97bc6d093bc7c08)
+        ;
+
+        
+    
+    
+            marker_0d94222ac10829bc7f572b97e18f407c.bindTooltip(
+                `<div>
+                     Toudouze - Clauzel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3113928210a85781d8201eae3224771e = L.marker(
+                [48.84389286531899, 2.3519663885235786],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_6949d0435a52f85b42be7bf74efd1e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e7636d02a9db4b65620e8aa8d096555 = $(`<div id="html_4e7636d02a9db4b65620e8aa8d096555" style="width: 100.0%; height: 100.0%;">             Station: Lacépède - Monge<br>             Available bikes: 21<br>             Mechanical: 13<br>             Electric: 8<br>             Capacity: 23             </div>`)[0];
+                popup_6949d0435a52f85b42be7bf74efd1e62.setContent(html_4e7636d02a9db4b65620e8aa8d096555);
+            
+        
+
+        marker_3113928210a85781d8201eae3224771e.bindPopup(popup_6949d0435a52f85b42be7bf74efd1e62)
+        ;
+
+        
+    
+    
+            marker_3113928210a85781d8201eae3224771e.bindTooltip(
+                `<div>
+                     Lacépède - Monge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45c85a23702e82c39e011c081a5ba095 = L.marker(
+                [48.81580226360801, 2.376804985105991],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_23e7782fc558545ede5509f1bc257dde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9698422d1991dcfe02a42a6177956f39 = $(`<div id="html_9698422d1991dcfe02a42a6177956f39" style="width: 100.0%; height: 100.0%;">             Station: Pierre et Marie Curie - Maurice Thorez<br>             Available bikes: 10<br>             Mechanical: 6<br>             Electric: 4<br>             Capacity: 27             </div>`)[0];
+                popup_23e7782fc558545ede5509f1bc257dde.setContent(html_9698422d1991dcfe02a42a6177956f39);
+            
+        
+
+        marker_45c85a23702e82c39e011c081a5ba095.bindPopup(popup_23e7782fc558545ede5509f1bc257dde)
+        ;
+
+        
+    
+    
+            marker_45c85a23702e82c39e011c081a5ba095.bindTooltip(
+                `<div>
+                     Pierre et Marie Curie - Maurice Thorez
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caa846c7a22b1179f5a18e09664cc7c4 = L.marker(
+                [48.830981659316855, 2.3481646925210953],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_fc146ab3f62e202bc3ab5167faced130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4251318a33bc1e09f2de63492e509e4d = $(`<div id="html_4251318a33bc1e09f2de63492e509e4d" style="width: 100.0%; height: 100.0%;">             Station: Croulebarde - Corvisart<br>             Available bikes: 20<br>             Mechanical: 12<br>             Electric: 8<br>             Capacity: 34             </div>`)[0];
+                popup_fc146ab3f62e202bc3ab5167faced130.setContent(html_4251318a33bc1e09f2de63492e509e4d);
+            
+        
+
+        marker_caa846c7a22b1179f5a18e09664cc7c4.bindPopup(popup_fc146ab3f62e202bc3ab5167faced130)
+        ;
+
+        
+    
+    
+            marker_caa846c7a22b1179f5a18e09664cc7c4.bindTooltip(
+                `<div>
+                     Croulebarde - Corvisart
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1928352ac5eddbd71e7dcf8b3b07922 = L.marker(
+                [48.822036188382, 2.2754641655975],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_4b2d1e835af0d7970bf24cde22b5ac7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6ca19be9456ff2677062903ec2bebc9 = $(`<div id="html_e6ca19be9456ff2677062903ec2bebc9" style="width: 100.0%; height: 100.0%;">             Station: Moulin de Pierre - Abbé Grégoire<br>             Available bikes: 5<br>             Mechanical: 1<br>             Electric: 4<br>             Capacity: 20             </div>`)[0];
+                popup_4b2d1e835af0d7970bf24cde22b5ac7e.setContent(html_e6ca19be9456ff2677062903ec2bebc9);
+            
+        
+
+        marker_e1928352ac5eddbd71e7dcf8b3b07922.bindPopup(popup_4b2d1e835af0d7970bf24cde22b5ac7e)
+        ;
+
+        
+    
+    
+            marker_e1928352ac5eddbd71e7dcf8b3b07922.bindTooltip(
+                `<div>
+                     Moulin de Pierre - Abbé Grégoire
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbc1fea2a78c533034b69ea8f1872e23 = L.marker(
+                [48.82435782216384, 2.377065159380436],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_3ba5a3bafb1d4848e69235bac96df5dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ee017f8509530804ea1004f216f9e06 = $(`<div id="html_9ee017f8509530804ea1004f216f9e06" style="width: 100.0%; height: 100.0%;">             Station: Regnault - Patay<br>             Available bikes: 48<br>             Mechanical: 45<br>             Electric: 3<br>             Capacity: 63             </div>`)[0];
+                popup_3ba5a3bafb1d4848e69235bac96df5dd.setContent(html_9ee017f8509530804ea1004f216f9e06);
+            
+        
+
+        marker_dbc1fea2a78c533034b69ea8f1872e23.bindPopup(popup_3ba5a3bafb1d4848e69235bac96df5dd)
+        ;
+
+        
+    
+    
+            marker_dbc1fea2a78c533034b69ea8f1872e23.bindTooltip(
+                `<div>
+                     Regnault - Patay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6a41938d3f3b020b88208fe8bd222d7 = L.marker(
+                [48.851419978983, 2.3097044974566],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_bc84fb4037cf262b2a8aa2f78b17fbcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46945b02819da7c1bab08c5ce6d637d3 = $(`<div id="html_46945b02819da7c1bab08c5ce6d637d3" style="width: 100.0%; height: 100.0%;">             Station: Ségur - d'Estrées<br>             Available bikes: 15<br>             Mechanical: 10<br>             Electric: 5<br>             Capacity: 19             </div>`)[0];
+                popup_bc84fb4037cf262b2a8aa2f78b17fbcf.setContent(html_46945b02819da7c1bab08c5ce6d637d3);
+            
+        
+
+        marker_a6a41938d3f3b020b88208fe8bd222d7.bindPopup(popup_bc84fb4037cf262b2a8aa2f78b17fbcf)
+        ;
+
+        
+    
+    
+            marker_a6a41938d3f3b020b88208fe8bd222d7.bindTooltip(
+                `<div>
+                     Ségur - d'Estrées
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecbfbdf0760808251054781b73716cb3 = L.marker(
+                [48.814183748660554, 2.2872862592339516],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_f41061d635efe7d9e3cb44ba0a1a8ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df3de6a1eb35c9085d6ae3ae0725f1c9 = $(`<div id="html_df3de6a1eb35c9085d6ae3ae0725f1c9" style="width: 100.0%; height: 100.0%;">             Station: Henri Barbusse - Stalingrad<br>             Available bikes: 5<br>             Mechanical: 0<br>             Electric: 5<br>             Capacity: 16             </div>`)[0];
+                popup_f41061d635efe7d9e3cb44ba0a1a8ff1.setContent(html_df3de6a1eb35c9085d6ae3ae0725f1c9);
+            
+        
+
+        marker_ecbfbdf0760808251054781b73716cb3.bindPopup(popup_f41061d635efe7d9e3cb44ba0a1a8ff1)
+        ;
+
+        
+    
+    
+            marker_ecbfbdf0760808251054781b73716cb3.bindTooltip(
+                `<div>
+                     Henri Barbusse - Stalingrad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e51e1b1a574a0057124b72a0ce31801 = L.marker(
+                [48.88896161855884, 2.322528975094376],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_9e3d225cc644f24d63fdbabad0a64585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26579245ecd5f61a2ad75fefa7186bfb = $(`<div id="html_26579245ecd5f61a2ad75fefa7186bfb" style="width: 100.0%; height: 100.0%;">             Station: Legendre - Clichy<br>             Available bikes: 2<br>             Mechanical: 0<br>             Electric: 2<br>             Capacity: 40             </div>`)[0];
+                popup_9e3d225cc644f24d63fdbabad0a64585.setContent(html_26579245ecd5f61a2ad75fefa7186bfb);
+            
+        
+
+        marker_5e51e1b1a574a0057124b72a0ce31801.bindPopup(popup_9e3d225cc644f24d63fdbabad0a64585)
+        ;
+
+        
+    
+    
+            marker_5e51e1b1a574a0057124b72a0ce31801.bindTooltip(
+                `<div>
+                     Legendre - Clichy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ef8fc075d2763010cbdc0e7ed64f2bb = L.marker(
+                [48.85507930579506, 2.3733686318721463],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_1e69a5fd8429bdee5258425c3f2ced9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf9803c7bb1b09cba58ed790b72f4b4e = $(`<div id="html_cf9803c7bb1b09cba58ed790b72f4b4e" style="width: 100.0%; height: 100.0%;">             Station: Roquette - Thiéré<br>             Available bikes: 17<br>             Mechanical: 14<br>             Electric: 3<br>             Capacity: 23             </div>`)[0];
+                popup_1e69a5fd8429bdee5258425c3f2ced9b.setContent(html_cf9803c7bb1b09cba58ed790b72f4b4e);
+            
+        
+
+        marker_9ef8fc075d2763010cbdc0e7ed64f2bb.bindPopup(popup_1e69a5fd8429bdee5258425c3f2ced9b)
+        ;
+
+        
+    
+    
+            marker_9ef8fc075d2763010cbdc0e7ed64f2bb.bindTooltip(
+                `<div>
+                     Roquette - Thiéré
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11afbae4165a367fe807a631bb46ff5e = L.marker(
+                [48.872010281270974, 2.392039597034455],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c536dd431f68e89d35966c990b8fe458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0132d8d05d74a9006e734c52e171eb31 = $(`<div id="html_0132d8d05d74a9006e734c52e171eb31" style="width: 100.0%; height: 100.0%;">             Station: Pyrénées - Emmery<br>             Available bikes: 2<br>             Mechanical: 1<br>             Electric: 1<br>             Capacity: 40             </div>`)[0];
+                popup_c536dd431f68e89d35966c990b8fe458.setContent(html_0132d8d05d74a9006e734c52e171eb31);
+            
+        
+
+        marker_11afbae4165a367fe807a631bb46ff5e.bindPopup(popup_c536dd431f68e89d35966c990b8fe458)
+        ;
+
+        
+    
+    
+            marker_11afbae4165a367fe807a631bb46ff5e.bindTooltip(
+                `<div>
+                     Pyrénées - Emmery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d89463f178792061682e7a8936b7a1d = L.marker(
+                [48.848225572724, 2.3502873256803],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_63a101314f6e1f27dda05fc113fb739f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58f0dcb9a66d10e496a1e0fee939c519 = $(`<div id="html_58f0dcb9a66d10e496a1e0fee939c519" style="width: 100.0%; height: 100.0%;">             Station: Mutualité<br>             Available bikes: 34<br>             Mechanical: 30<br>             Electric: 4<br>             Capacity: 37             </div>`)[0];
+                popup_63a101314f6e1f27dda05fc113fb739f.setContent(html_58f0dcb9a66d10e496a1e0fee939c519);
+            
+        
+
+        marker_6d89463f178792061682e7a8936b7a1d.bindPopup(popup_63a101314f6e1f27dda05fc113fb739f)
+        ;
+
+        
+    
+    
+            marker_6d89463f178792061682e7a8936b7a1d.bindTooltip(
+                `<div>
+                     Mutualité
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62932cc861b9a4610868c2c6be2b2d7f = L.marker(
+                [48.814548697325, 2.3611663654447],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_45e1fab74b55da636b89296ff270d678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a43766ddb99b5b65a9c7201522a83013 = $(`<div id="html_a43766ddb99b5b65a9c7201522a83013" style="width: 100.0%; height: 100.0%;">             Station: Roger Salengro - Fontainebleau<br>             Available bikes: 3<br>             Mechanical: 0<br>             Electric: 3<br>             Capacity: 25             </div>`)[0];
+                popup_45e1fab74b55da636b89296ff270d678.setContent(html_a43766ddb99b5b65a9c7201522a83013);
+            
+        
+
+        marker_62932cc861b9a4610868c2c6be2b2d7f.bindPopup(popup_45e1fab74b55da636b89296ff270d678)
+        ;
+
+        
+    
+    
+            marker_62932cc861b9a4610868c2c6be2b2d7f.bindTooltip(
+                `<div>
+                     Roger Salengro - Fontainebleau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b54691551e27c9cb618f17296ab06c3 = L.marker(
+                [48.847803063647, 2.4451419711113],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_6527b33decfbf5adcffe388f9976caed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bd8be8a04287d832f4fd3d59e024c20 = $(`<div id="html_4bd8be8a04287d832f4fd3d59e024c20" style="width: 100.0%; height: 100.0%;">             Station: Fontenay - Libération<br>             Available bikes: 1<br>             Mechanical: 1<br>             Electric: 0<br>             Capacity: 25             </div>`)[0];
+                popup_6527b33decfbf5adcffe388f9976caed.setContent(html_4bd8be8a04287d832f4fd3d59e024c20);
+            
+        
+
+        marker_6b54691551e27c9cb618f17296ab06c3.bindPopup(popup_6527b33decfbf5adcffe388f9976caed)
+        ;
+
+        
+    
+    
+            marker_6b54691551e27c9cb618f17296ab06c3.bindTooltip(
+                `<div>
+                     Fontenay - Libération
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fa55154f66fef33f8b1c501caa282f7 = L.marker(
+                [48.84264375274712, 2.3445946723222733],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_3f91b7fff176b6493484b0bd2122af09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdf0752dd892809c2d7ef781bc7807fe = $(`<div id="html_bdf0752dd892809c2d7ef781bc7807fe" style="width: 100.0%; height: 100.0%;">             Station: Erasme - Ulm<br>             Available bikes: 18<br>             Mechanical: 10<br>             Electric: 8<br>             Capacity: 24             </div>`)[0];
+                popup_3f91b7fff176b6493484b0bd2122af09.setContent(html_bdf0752dd892809c2d7ef781bc7807fe);
+            
+        
+
+        marker_9fa55154f66fef33f8b1c501caa282f7.bindPopup(popup_3f91b7fff176b6493484b0bd2122af09)
+        ;
+
+        
+    
+    
+            marker_9fa55154f66fef33f8b1c501caa282f7.bindTooltip(
+                `<div>
+                     Erasme - Ulm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5cf74c5c8119e28eb8d0e17763db247 = L.marker(
+                [48.88794016394694, 2.326124420314341],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_c82f03f8fab32ad158dc8a1f6d78cb0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa68fe02defda240e5903f8446edcc01 = $(`<div id="html_fa68fe02defda240e5903f8446edcc01" style="width: 100.0%; height: 100.0%;">             Station: Etienne Jodelle - Saint Ouen<br>             Available bikes: 3<br>             Mechanical: 2<br>             Electric: 1<br>             Capacity: 33             </div>`)[0];
+                popup_c82f03f8fab32ad158dc8a1f6d78cb0a.setContent(html_fa68fe02defda240e5903f8446edcc01);
+            
+        
+
+        marker_a5cf74c5c8119e28eb8d0e17763db247.bindPopup(popup_c82f03f8fab32ad158dc8a1f6d78cb0a)
+        ;
+
+        
+    
+    
+            marker_a5cf74c5c8119e28eb8d0e17763db247.bindTooltip(
+                `<div>
+                     Etienne Jodelle - Saint Ouen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e424083d9027bed6aa7d9091048fc689 = L.marker(
+                [48.876111, 2.4677312],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_b5892d4804dd24d02f24395eef95d434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7ca09da65d706f091eb6fbcddd41653 = $(`<div id="html_b7ca09da65d706f091eb6fbcddd41653" style="width: 100.0%; height: 100.0%;">             Station: Boissière - Etienne Dolet<br>             Available bikes: 5<br>             Mechanical: 0<br>             Electric: 5<br>             Capacity: 21             </div>`)[0];
+                popup_b5892d4804dd24d02f24395eef95d434.setContent(html_b7ca09da65d706f091eb6fbcddd41653);
+            
+        
+
+        marker_e424083d9027bed6aa7d9091048fc689.bindPopup(popup_b5892d4804dd24d02f24395eef95d434)
+        ;
+
+        
+    
+    
+            marker_e424083d9027bed6aa7d9091048fc689.bindTooltip(
+                `<div>
+                     Boissière - Etienne Dolet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cf3dca40f9fca68404dc09d97504c71 = L.marker(
+                [48.84240765130395, 2.281037718057633],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_4f70e130595d5adc4ef18466caeef6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3b1099c1798308e6a07c7f0da5d72c7 = $(`<div id="html_f3b1099c1798308e6a07c7f0da5d72c7" style="width: 100.0%; height: 100.0%;">             Station: Cevennes - Bergers<br>             Available bikes: 17<br>             Mechanical: 7<br>             Electric: 10<br>             Capacity: 29             </div>`)[0];
+                popup_4f70e130595d5adc4ef18466caeef6d4.setContent(html_f3b1099c1798308e6a07c7f0da5d72c7);
+            
+        
+
+        marker_8cf3dca40f9fca68404dc09d97504c71.bindPopup(popup_4f70e130595d5adc4ef18466caeef6d4)
+        ;
+
+        
+    
+    
+            marker_8cf3dca40f9fca68404dc09d97504c71.bindTooltip(
+                `<div>
+                     Cevennes - Bergers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f667243c8c5582f1eab2177d82e555a = L.marker(
+                [48.836191728066666, 2.2811267160086417],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_5e4f41604ef751b6cb00fbd7a8a55d0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e076ebc31f4cee79e8cdb973c098590d = $(`<div id="html_e076ebc31f4cee79e8cdb973c098590d" style="width: 100.0%; height: 100.0%;">             Station: Place Robert Guillemard<br>             Available bikes: 17<br>             Mechanical: 17<br>             Electric: 0<br>             Capacity: 24             </div>`)[0];
+                popup_5e4f41604ef751b6cb00fbd7a8a55d0e.setContent(html_e076ebc31f4cee79e8cdb973c098590d);
+            
+        
+
+        marker_4f667243c8c5582f1eab2177d82e555a.bindPopup(popup_5e4f41604ef751b6cb00fbd7a8a55d0e)
+        ;
+
+        
+    
+    
+            marker_4f667243c8c5582f1eab2177d82e555a.bindTooltip(
+                `<div>
+                     Place Robert Guillemard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3621111582da6b2493adf48385bc5d39 = L.marker(
+                [48.8415473058801, 2.233161628246308],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_e95128e018bcddf76b77fddb2892edf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59770c88ca7b2f31400f88cbddb9c818 = $(`<div id="html_59770c88ca7b2f31400f88cbddb9c818" style="width: 100.0%; height: 100.0%;">             Station: Marcelin Berthelot<br>             Available bikes: 26<br>             Mechanical: 15<br>             Electric: 11<br>             Capacity: 27             </div>`)[0];
+                popup_e95128e018bcddf76b77fddb2892edf7.setContent(html_59770c88ca7b2f31400f88cbddb9c818);
+            
+        
+
+        marker_3621111582da6b2493adf48385bc5d39.bindPopup(popup_e95128e018bcddf76b77fddb2892edf7)
+        ;
+
+        
+    
+    
+            marker_3621111582da6b2493adf48385bc5d39.bindTooltip(
+                `<div>
+                     Marcelin Berthelot
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef8ead1a86c40d42d632cab354fe269f = L.marker(
+                [48.82753962462998, 2.2416052222251897],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_e4a6854ef0b5c4fc8de2b87baff42521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54e455d9d31ad0a1e12bddc42bfda087 = $(`<div id="html_54e455d9d31ad0a1e12bddc42bfda087" style="width: 100.0%; height: 100.0%;">             Station: Nationale - Place Jules Guesde<br>             Available bikes: 5<br>             Mechanical: 1<br>             Electric: 4<br>             Capacity: 23             </div>`)[0];
+                popup_e4a6854ef0b5c4fc8de2b87baff42521.setContent(html_54e455d9d31ad0a1e12bddc42bfda087);
+            
+        
+
+        marker_ef8ead1a86c40d42d632cab354fe269f.bindPopup(popup_e4a6854ef0b5c4fc8de2b87baff42521)
+        ;
+
+        
+    
+    
+            marker_ef8ead1a86c40d42d632cab354fe269f.bindTooltip(
+                `<div>
+                     Nationale - Place Jules Guesde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd944900c5cd63eec08a034b45f6d3ec = L.marker(
+                [48.790114, 2.4025777],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_4e525597ce80b5500b547a154667e642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61e71906c86a802cc54d6b1d8db0f194 = $(`<div id="html_61e71906c86a802cc54d6b1d8db0f194" style="width: 100.0%; height: 100.0%;">             Station: Gabriel Péri - Danielle Casanova<br>             Available bikes: 11<br>             Mechanical: 10<br>             Electric: 1<br>             Capacity: 20             </div>`)[0];
+                popup_4e525597ce80b5500b547a154667e642.setContent(html_61e71906c86a802cc54d6b1d8db0f194);
+            
+        
+
+        marker_cd944900c5cd63eec08a034b45f6d3ec.bindPopup(popup_4e525597ce80b5500b547a154667e642)
+        ;
+
+        
+    
+    
+            marker_cd944900c5cd63eec08a034b45f6d3ec.bindTooltip(
+                `<div>
+                     Gabriel Péri - Danielle Casanova
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34bb565a62e964cfe99c59d7be684a72 = L.marker(
+                [48.84442462786544, 2.294059172272682],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_ceca25070bc4704be0e2db085b0f2bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38cc15115f8bc1391bd89ac8ab44ff0e = $(`<div id="html_38cc15115f8bc1391bd89ac8ab44ff0e" style="width: 100.0%; height: 100.0%;">             Station: Lakanal - Commerce<br>             Available bikes: 5<br>             Mechanical: 2<br>             Electric: 3<br>             Capacity: 53             </div>`)[0];
+                popup_ceca25070bc4704be0e2db085b0f2bb8.setContent(html_38cc15115f8bc1391bd89ac8ab44ff0e);
+            
+        
+
+        marker_34bb565a62e964cfe99c59d7be684a72.bindPopup(popup_ceca25070bc4704be0e2db085b0f2bb8)
+        ;
+
+        
+    
+    
+            marker_34bb565a62e964cfe99c59d7be684a72.bindTooltip(
+                `<div>
+                     Lakanal - Commerce
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d22e082e1953020cd38cdcec1351642 = L.marker(
+                [48.84107178161383, 2.355475388467312],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_3430a10a287fd6abb78d87521e41e20f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_902c64f9964b539503befc743d668d9b = $(`<div id="html_902c64f9964b539503befc743d668d9b" style="width: 100.0%; height: 100.0%;">             Station: Censier - Jardin des Plantes<br>             Available bikes: 26<br>             Mechanical: 24<br>             Electric: 2<br>             Capacity: 28             </div>`)[0];
+                popup_3430a10a287fd6abb78d87521e41e20f.setContent(html_902c64f9964b539503befc743d668d9b);
+            
+        
+
+        marker_5d22e082e1953020cd38cdcec1351642.bindPopup(popup_3430a10a287fd6abb78d87521e41e20f)
+        ;
+
+        
+    
+    
+            marker_5d22e082e1953020cd38cdcec1351642.bindTooltip(
+                `<div>
+                     Censier - Jardin des Plantes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35045b91c03841bda1bfda5233894f63 = L.marker(
+                [48.787553654715644, 2.306235730648041],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_e25f3fad551a17aa61e34129dd541679 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07db9ddafccba976889fd395e58ac3b5 = $(`<div id="html_07db9ddafccba976889fd395e58ac3b5" style="width: 100.0%; height: 100.0%;">             Station: Tertres - Fontaine<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 28             </div>`)[0];
+                popup_e25f3fad551a17aa61e34129dd541679.setContent(html_07db9ddafccba976889fd395e58ac3b5);
+            
+        
+
+        marker_35045b91c03841bda1bfda5233894f63.bindPopup(popup_e25f3fad551a17aa61e34129dd541679)
+        ;
+
+        
+    
+    
+            marker_35045b91c03841bda1bfda5233894f63.bindTooltip(
+                `<div>
+                     Tertres - Fontaine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fe4de09ca0c316b588acae7d9c826f3 = L.marker(
+                [48.8835462, 2.4137883],
+                {}
+            ).addTo(map_c1f684eb18354c3ef4b158d9aef94889);
+        
+    
+        var popup_237dc72ebaa3bbe87ab41ef20f14f537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2560dd6edc9487f6124b12fe696971d8 = $(`<div id="html_2560dd6edc9487f6124b12fe696971d8" style="width: 100.0%; height: 100.0%;">             Station: Marcelle - Thalie<br>             Available bikes: 1<br>             Mechanical: 0<br>             Electric: 1<br>             Capacity: 20             </div>`)[0];
+                popup_237dc72ebaa3bbe87ab41ef20f14f537.setContent(html_2560dd6edc9487f6124b12fe696971d8);
+            
+        
+
+        marker_3fe4de09ca0c316b588acae7d9c826f3.bindPopup(popup_237dc72ebaa3bbe87ab41ef20f14f537)
+        ;
+
+        
+    
+    
+            marker_3fe4de09ca0c316b588acae7d9c826f3.bindTooltip(
+                `<div>
+                     Marcelle - Thalie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
