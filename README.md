@@ -68,7 +68,7 @@ The application fetches real-time Velib availability data from the Paris Open Da
 
 ## License
 
-This project is licensed under The Unlicense - see the [LICENSE](LICENSE) file for details.
+This project is licensed under The Unlicense - see the [LICENSE](LICENSE.txt) file for details.
 
 ## Acknowledgments
 
@@ -77,8 +77,6 @@ This project is licensed under The Unlicense - see the [LICENSE](LICENSE) file f
 - [Flask](https://flask.palletsprojects.com/) for web framework support.
 
 ---
-
-Feel free to modify any sections of this README file according to your project's specific details or requirements!
 
 Citations:
 [1] https://opendata.paris.fr
